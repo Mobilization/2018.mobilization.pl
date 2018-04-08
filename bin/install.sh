@@ -7,7 +7,7 @@ mkdir -p mobilization.pl
 cd mobilization.pl
 
 # clone master branch folder
-git clone https://github.com/mobilization/$MOBILIZATION_DOMAIN.git
+git clone git@github.com:Mobilization/$MOBILIZATION_DOMAIN.git
 
 # create symbolic links 
 ln -s bin/clean.sh $MOBILIZATION_DOMAIN/clean.sh
@@ -18,7 +18,7 @@ ln -s bin/run.sh $MOBILIZATION_DOMAIN/run.sh
 # clone gh-pages branch folder
 mkdir $MOBILIZATION_DOMAIN-gh-pages
 cd $MOBILIZATION_DOMAIN-gh-pages
-git clone https://github.com/mobilization/$MOBILIZATION_DOMAIN.git .
+git clone git@github.com:Mobilization/$MOBILIZATION_DOMAIN.git .
 git checkout gh-pages
 
 echo ""
