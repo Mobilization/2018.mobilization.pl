@@ -1,0 +1,13 @@
+---
+layout: 'main'
+---
+
+<%- @partial('header.html', @) %>
+<%- @partial('about.html', @) %>
+<%- @partial('sponsors.html', @) %>
+<% if @site.visibility.talks: %><%- @partial('talks.html', @) %><% end %>
+<% if @site.visibility.agenda: %><%- @partial('agenda.html', @) %><% end %>
+<%- @partial('speakers.html', @) %>
+<%- @partial('partners.html', @) %>
+<%- @partial('venue.html', @) %>
+<%- @partial('footer.html', @) %>

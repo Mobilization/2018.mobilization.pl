@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>Mobilization 2017</title>
+    <meta name="description" content="<%= @getPreparedDescription() %>" />
+    <meta name="keywords"  content="<%= @getPreparedKeywords() %>" />
+    <meta name="author" content="JUG Lodz" />
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- icons & favicons -->
+    <link rel="shortcut icon" href="/assets/img/page/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/img/page/favicon.ico" type="image/x-icon">
+
+    <!-- FB IMAGE -->
+    <meta property="og:image" content="http://mobilization.pl/mobilization-logo.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+</head>
+
+<body>
+<%- @content %>
+</body>
+</html>
+
+
+
