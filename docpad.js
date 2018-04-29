@@ -20,6 +20,7 @@ docpadConfig = {
             title: "Mobilization 2018",
             description: "Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms.",
             keywords: "mobilization, conference, mobile conference, Łódź",
+            author: "Java User Group Łódź",
             styles: [],
             scripts: [],
             visibility: {
@@ -1431,6 +1432,9 @@ docpadConfig = {
         },
         getPreparedKeywords: function () {
             return this.site.keywords.concat(this.document.keywords || []).join(', ');
+        },
+        getPreparedAuthor: function() {
+            return this.site.author;
         },
         getHtmlLangImg: function (_talk) {
             if (_talk.language == "EN") {

@@ -4,10 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-    <title>Mobilization 2017</title>
+    <title><%= @getPreparedTitle() %></title>
     <meta name="description" content="<%= @getPreparedDescription() %>" />
     <meta name="keywords"  content="<%= @getPreparedKeywords() %>" />
-    <meta name="author" content="JUG Lodz" />
+    <meta name="author" content="<%= @getPreparedAuthor() %>" />
 
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
