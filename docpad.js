@@ -24,9 +24,12 @@ docpadConfig = {
             styles: [],
             scripts: [],
             visibility: {
-                "agenda": true,
-                "talks": false,
-                "speakers": true,
+                "call_for_papers": false,
+                "registration": false,
+                "agenda": false,
+                "speakers": false,
+                "sponsors": false,
+                "partners": false
             },
             event: {
                 title: 'Mobilization 2018',

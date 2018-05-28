@@ -4,10 +4,10 @@ layout: 'main'
 
 <%- @partial('header.html', @) %>
 <%- @partial('about.html', @) %>
-<%- @partial('sponsors.html', @) %>
-<% if @site.visibility.talks: %><%- @partial('talks.html', @) %><% end %>
+<% if @site.visibility.sponsors: %><%- @partial('sponsors.html', @) %><% end %>
+<% if @site.visibility.speakers: %><%- @partial('speakers.html', @) %><% end %>
 <% if @site.visibility.agenda: %><%- @partial('agenda.html', @) %><% end %>
-<%- @partial('speakers.html', @) %>
-<%- @partial('partners.html', @) %>
 <%- @partial('venue.html', @) %>
+<% if @site.visibility.partners: %><%- @partial('partners.html', @) %><% end %>
 <%- @partial('footer.html', @) %>
+
