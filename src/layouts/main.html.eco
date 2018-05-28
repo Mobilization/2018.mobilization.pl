@@ -31,6 +31,8 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <link rel="stylesheet" href="assets/css/animate.css">
 <!-- Colorbox -->
 <link rel="stylesheet" href="assets/css/colorbox.css">
+<!-- Modal video -->
+<link rel="stylesheet" href="assets/css/modal-video.min.css">
 <!-- Mobilization -->
 <link rel="stylesheet" href="assets/mobilization/css/mobilization.css">
 
@@ -66,10 +68,11 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- Smoothscroll -->
 <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 <!-- Google Map API Key-->
-<script type="text/javascript"
-src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 <!-- Google Map Plugin-->
 <script type="text/javascript" src="assets/js/gmap3.js"></script>
+<!-- Modal video -->
+<script type="text/javascript" src="assets/js/jquery.modal-video.js"></script>
 <!-- Template custom -->
 <script type="text/javascript" src="assets/js/custom.js"></script>
 

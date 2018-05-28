@@ -20,13 +20,14 @@
                 </button>
                 <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Code of conduct</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/code-of-conduct.html">Code of conduct</a></li>
+                        <li><a href="/index.html#ts-venue">Contact</a></li>
 
                         <% if @site.visibility.call_for_papers: %>
                         <li class="header-ticket">
                             <a class="ticket-btn btn-primary" href="#"><i class="fa fa-bullhorn"></i>
-                                Call for papers</a>
+                                Call for papers
+                            </a>
                         </li>
                         <% end %>
                     </ul>
@@ -40,51 +41,5 @@
     </div>
     <!--/ Container end -->
 </header>
-
-<section id="banner">
-    <div class="banner-item bg-overlay">
-        <div class="bg-overlay-gradient">
-            <div class="container">
-                <div class="banner-content text-center">
-                    <div class="banner-content-wrap">
-                        <div class="countdown bg-style">
-                            <div class="counter-day">
-                                <span class="days">00</span>
-                                <div class="smalltext">Days</div>
-                            </div>
-                            <div class="counter-hour">
-                                <span class="hours">00</span>
-                                <div class="smalltext">Hours</div>
-                            </div>
-                            <div class="counter-minute">
-                                <span class="minutes">00</span>
-                                <div class="smalltext">Minutes</div>
-                            </div>
-                            <div class="counter-second">
-                                <span class="seconds">00</span>
-                                <div class="smalltext">Seconds</div>
-                            </div>
-                        </div>
-                        <!-- Countdown end -->
-                        <h1 class="banner-title">STAY READY, STAY MOBILIZED !</h1>
-                        <h2 class="banner-subtitle">OCTOBER, 19<sup>th</sup> - 20<sup>th</sup>, 2018</h2>
-                        <h3 class="banner-desc">Lodz, POLAND</b></h3>
-                        <% if @site.visibility.registration: %>
-                        <p class="banner-btn">
-                            <a href="#" class="btn btn-primary"><i class="fab fa-earlybirds"></i> Register Now #EARLYBIRD </a>
-                        </p>
-                        <% end %>
-                    </div>
-                    <!-- Banner content wrap end -->
-                </div>
-                <!-- Banner content end -->
-            </div>
-            <!-- Container end -->
-        </div>
-    </div>
-    <!-- Banner item end -->
-</section>
-<!-- Section banner end -->
-
 <!--/HEADER-->
 

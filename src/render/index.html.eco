@@ -3,6 +3,7 @@ layout: 'main'
 ---
 
 <%- @partial('header.html', @) %>
+<%- @partial('banner.html', @) %>
 <%- @partial('about.html', @) %>
 <% if @site.visibility.sponsors: %><%- @partial('sponsors.html', @) %><% end %>
 <% if @site.visibility.speakers: %><%- @partial('speakers.html', @) %><% end %>
@@ -10,4 +11,3 @@ layout: 'main'
 <%- @partial('venue.html', @) %>
 <% if @site.visibility.partners: %><%- @partial('partners.html', @) %><% end %>
 <%- @partial('footer.html', @) %>
-

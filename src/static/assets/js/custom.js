@@ -1,20 +1,3 @@
-/*
-
-	Template Name: Eventor - Conference & Event HTML Template
-	Author: Themewinter
-	Author URI: https://themeforest.net/user/themewinter
-	Description: Eventor - Conference & Event HTML Template
-	Version: 1.0
-
-	1. Mobile Menu
-	2. Main Slideshow
-	3. Gallery popup
-	4. Counter
-	5. Contact form
-	6. Back to top
-  
-*/
-
 
 jQuery(function($) {
   "use strict";
@@ -61,11 +44,6 @@ jQuery(function($) {
         position: eventmap
       })
 
-      .infowindow({
-         position: eventmap,
-         content: "NYC Seminar and Conference Center, New York"
-      })
-
       .then(function (infowindow) {
          var map = this.get(0);
          var marker = this.get(1);
@@ -74,19 +52,6 @@ jQuery(function($) {
          });
       });
 	}
-
- 
-
-
-	/* ----------------------------------------------------------- */
-	/*  Main slideshow
-	/* ----------------------------------------------------------- */
-
-		$('#main-slide').carousel({
-			pause: true,
-			interval: 100000,
-		});
-
 
 	/* ----------------------------------------------------------- */
 	/*  Gallery popup
@@ -112,7 +77,7 @@ jQuery(function($) {
 		});
 
 
-	
+
 	/* ----------------------------------------------------------- */
 	/*  Contact form
 	/* ----------------------------------------------------------- */
