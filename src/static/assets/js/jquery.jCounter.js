@@ -166,29 +166,32 @@
 					}				
 				},1000));
 			} else {
+				// hack
                 var currentDate = Math.floor($.now() / 1000);
                 startCounter(currentDate,el);
 
-                eventDate = Date.parse($(el).data("userOptions").date) / 1000;
-                dateSource = thisEl.data("userOptions").serverDateSource + '?timezone=' + thisEl.data("userOptions").timezone + '&callback=?';
-                $.ajax({
-                	url: dateSource,
-	                dataType : 'json',
-	                data : {},q
-	                success : function(data, textStatus){
-						var currentDate = Date.parse(data.currentDate) / 1000;
-						startCounter(currentDate,el);
-	                },
-	                error : function(){
-						var currentDate = Math.floor($.now() / 1000);
-						startCounter(currentDate,el);
-	                }
-            	});
+                // eventDate = Date.parse($(el).data("userOptions").date) / 1000;
+                // dateSource = thisEl.data("userOptions").serverDateSource + '?timezone=' + thisEl.data("userOptions").timezone + '&callback=?';
+                // $.ajax({
+                	// url: dateSource,
+	            //     dataType : 'json',
+	            //     data : {},
+	            //     success : function(data, textStatus){
+					// 	var currentDate = Date.parse(data.currentDate) / 1000;
+					// 	startCounter(currentDate,el);
+	            //     },
+	            //     error : function(){
+					// 	if(consoleLog) { console.log("(jC) Error: Couldn't find dateandtime.php from serverDateSource: " + thisEl.data('userOptions').serverDateSource + "\n(jC) - Make sure the path is correct! \n(jC) - Now using the client-side time (not recommended).") }
+					// 	var currentDate = Math.floor($.now() / 1000);
+					// 	startCounter(currentDate,el);
+	            //     }
+            	// });
 			}
 		}
 
 		function startCounter(currentDate,el) {
 			countdown_proc(currentDate,el);
+            eventDate = Date.parse($(el).data("userOptions").date) / 1000;
 			if (eventDate > currentDate) {
 				$(el).data("jC_interval", setInterval(function(){
 					if(endCounter == false) {
