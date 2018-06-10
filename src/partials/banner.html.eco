@@ -24,7 +24,7 @@
                         </div>
                         <!-- Countdown end -->
                         <h1 class="banner-title">STAY READY, STAY MOBILIZED !</h1>
-                        <h2 class="banner-subtitle">OCTOBER, 19<sup>th</sup> - 20<sup>th</sup>, 2018</h2>
+                        <h2 class="banner-subtitle">OCTOBER, 20<sup>th</sup>, 2018</h2>
                         <h3 class="banner-desc">Lodz, POLAND</b></h3>
                         <% if @site.visibility.registration: %>
                         <p class="banner-btn">
