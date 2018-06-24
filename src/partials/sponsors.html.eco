@@ -1,0 +1,31 @@
+<!--SPONSORS-->
+<section id="ts-sponsors" class="ts-sponsors">
+	<div class="container">
+		<div class="row text-center">
+			<h2 class="section-title">Supporting Our Project</h2>
+			<p class="section-sub-title">Event Sponsors</p>
+		</div>
+		<!--/ Title row end -->
+		<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
+		<% if sponsor_category.length > 0: %>
+		<div class="row sponsor-padding text-center">
+			<h3 class="sponsor-title">Platinum</h3>
+			<% for sponsor_key, sponsor of sponsor_category: %><div style="display: inline-block; width: 300px">
+				<a href="<%= sponsor.link %>" class="sponsor-logo">
+					<img class="img-responsive" src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
+				</a>
+			</div><% end %>
+		</div>
+		<% end %>
+        <% end %>
+
+		<!-- <div class="row">
+			<div class="general-btn text-center">
+				<a class="btn btn-primary" href="#">Become our Sponsor</a>
+			</div>
+		</div> -->
+	</div>
+	<!--/ Container end -->
+</section>
+<!-- Sponsors end -->
+<!-- /SPONSORS -->
