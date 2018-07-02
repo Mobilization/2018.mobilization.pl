@@ -6,7 +6,7 @@ var indexOf = [].indexOf || function (item) {
     return -1;
 };
 
-var imgBaseUrl = '/images/';
+var imgBaseUrl = '/assets/mobilization/images/';
 var sponsorsImgBaseUrl = imgBaseUrl + 'sponsors/';
 var speakersImgBaseUrl = imgBaseUrl + 'speakers/';
 var partnersImgBaseUrl = imgBaseUrl + 'partners/';
@@ -65,133 +65,18 @@ docpadConfig = {
                         description_html: 'Łódź JUG is an association of Java developers, architects and enthusiasts of Java technology from Łódź, the city in the centre of Poland. The aim of the association is to promote exchange of knowledge and competence growth among Java professionals in the Łódź area. The main activity towards this goal is organisation of IT-related seminars and meetings that usually involve a presentation about chosen topic and then follow-up discussion. LJUG cooperates with other JUGs in Poland, like Polish JUG and Warsaw JUG. We encourage everyone interested in Java technologies to join and start participating in our expertise-sharing activities! Java User Group Łódź is main organizer of Mobilization event since 2011'
                     }
                 ],
-
                 community: [
                     {
                         "name": "Android Developer Group Poznań",
-                        "logo_url": "/images/partners/adgp.jpeg",
+                        "logo_url": "assets/mobilization/images/tmp/partner-logo.jpg",
                         "link": "http://www.meetup.com/Poznan-Android-Developer-Group/"
                     },
                     {
-                        "name": "Mobile Optimized 2018",
-                        "logo_url": "/images/partners/mo-logo.png",
-                        "link": "http://mo.dev.by"
+                        "name": "Android Developer Group Poznań",
+                        "logo_url": "assets/mobilization/images/tmp/partner-logo.jpg",
+                        "link": "http://www.meetup.com/Poznan-Android-Developer-Group/"
                     },
-                   {
-                       "name": "Let Swift",
-                       "logo_url": "/images/partners/letswift.png",
-                       "link": "https://www.facebook.com/letswiftwroclaw/"
-                   },
-                    {
-                        "name": "Firmao",
-                        "logo_url": "/images/partners/firmao.png",
-                        "link": "https://firmao.pl"
-                    },
-                    {
-                        "name": "Challenge Rocket",
-                        "logo_url": "/images/partners/challenge-rocket.png",
-                        "link": "http://ChallengeRocket.com"
-                    },
-                    {
-                        "name": "Zwinna Łódź",
-                        "logo_url": "/images/partners/zwinna_lodz.jpg",
-                        "link": "http://zwinnalodz.eu/"
-                    },
-                    {
-                        "name": "Mobile Warsaw",
-                        "logo_url": "/images/partners/mw-logo.png",
-                        "link": "http://mobile-warsaw.pl"
-                    },
-                    {
-                        "name": "Meet Mobile",
-                        "logo_url": "/images/partners/meet-mobile.png",
-                        "link": "https://www.meetup.com/meet-mobile/"
-                    },
-                    {
-                        "name": "Mobile Białystok",
-                        "logo_url": "/images/partners/mobile-bialystok.png",
-                        "link": "https://www.facebook.com/mobilebialystok/"
-                    },
-                    {
-                        "name": "GDG Rzeszów",
-                        "logo_url": "/images/partners/gdg-rzeszow.png",
-                        "link": "http://devfest.pl/"
-                    },
-                    {
-                        "name": "Stacja IT",
-                        "logo_url": "/images/partners/logo_stacja_it.png",
-                        "link": "http://stacja.it/"
-                    },
-                    {
-                        "name": "Realm.io",
-                        "logo_url": "/images/partners/realm.png",
-                        "link": "http://realm.io/"
-                    },
-                    {
-                        "name": "Droidcon Poland",
-                        "logo_url": "/images/partners/droidcon.png",
-                        "link": "http://droidcon.pl/"
-                    },
-                    {
-                        "name": "Innovation Amazon",
-                        "logo_url": "/images/partners/innovationamazon.png",
-                        "link": "https://innovation-amazon.com/"
-                    },
-                    {
-                        "name": "DevCamp",
-                        "logo_url": "/images/partners/devcamp.png",
-                        "link": "http://devcamp.nextapps.pl/"
-                    },
-                    {
-                        "name": "Łódź wiOSłuje",
-                        "logo_url": "/images/partners/lodz-wiosluje.png",
-                        "link": "https://www.meetup.com/Lodz-w-iOS-luje/"
-                    },
-                    {
-                        "name": "GDG Kraków",
-                        "logo_url": "/images/partners/gdgkrakow.png",
-                        "link": "https://www.meetup.com/GDG-Krakow/?chapter_analytics_code=UA-37387374-1"
-                    },
-		            {
-                        "name": "Wydarzenia IT w Łodzi",
-                        "logo_url": "/images/partners/wydarzeniaitlodz.png",
-                        "link": "https://www.facebook.com/WydarzeniaITwLodzi/"
-                    },
-                    {
-                        "name": "Dev@Ldz",
-                        "logo_url": "/images/partners/devldz.png",
-                        "link": "https://www.meetup.com/pl-PL/dev-LDZ/"
-                    },
-                    {
-                        "name": "Soldiers of mobile",
-                        "logo_url": "/images/partners/soldiers.png",
-                        "link": "https://soldiersofmobile.com/"
-                    },            
-                    ],
-                media: [
-
-   					{
-                        "name": "Programista Magazine",
-                        "logo_url": "/images/partners/programistamag.png",
-                        "link": "http://programistamag.pl"
-                    },
-                   {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
-                   {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
                 ],
-
-                supporters: [
-                    // {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
-                    {
-                        "name": "Krawka",
-                        "logo_url": "/images/partners/krawka.png",
-                        "link": "https://www.etsy.com/shop/Krawka?ref=hdr_shop_menu"
-                    },
-                    {
-                        "name": "Medialab",
-                        "logo_url": "/images/partners/medialab.png",
-                        "link": "http://www.medialab.pl/"
-                    },
-                ]
             },
             slots: {
                 'slot-registration': {
@@ -202,7 +87,7 @@ docpadConfig = {
                     from: '9:00',
                     to: '9:10'
                 },
-                'slot-no-coffee-0' : {
+                'slot-no-coffee-0': {
                     from: '9:10',
                     to: '9:15'
                 },
@@ -619,37 +504,37 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/nikola-irinchev-12443a80",
                     "github": "http://github.com/nirinchev"
                 },
-                 "speaker-bartosz-kraszewski": { //37
-                       "firstname": "Bartosz",
-                       "lastname": "Kraszewski",
-                       "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
-                       "photo_url": "/images/speakers/bartosz-kraszewski.png",
-                       "twitter": "https://twitter.com/BartoszKraszew1",
-                       "github": "https://github.com/bkraszewski",
-                       "linkedin": "https://www.linkedin.com/in/bkraszewski/",
-                       "www" : "https://about.me/bartoszk"
-                 },
-                 "speaker-maciej-puchalski": { //38
-                       "firstname": "Maciej",
-                       "lastname": "Puchalski",
-                       "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
-                       "photo_url": "/images/speakers/maciej-puchalski.png",
-                       "linkedin": "https://www.linkedin.com/in/maciej-puchalski-5ab71a133/"
+                "speaker-bartosz-kraszewski": { //37
+                    "firstname": "Bartosz",
+                    "lastname": "Kraszewski",
+                    "bio_html": "Software Engineer specialised in Mobile Applications development. Focused on code quality and standards, experienced working in fast paced, product-oriented environment - Silicon Valley startups. Co-founder of Mobile Bialystok - local mobile technology enthusiasts group. Also an amateur squash player.",
+                    "photo_url": "/images/speakers/bartosz-kraszewski.png",
+                    "twitter": "https://twitter.com/BartoszKraszew1",
+                    "github": "https://github.com/bkraszewski",
+                    "linkedin": "https://www.linkedin.com/in/bkraszewski/",
+                    "www": "https://about.me/bartoszk"
+                },
+                "speaker-maciej-puchalski": { //38
+                    "firstname": "Maciej",
+                    "lastname": "Puchalski",
+                    "bio_html": "Enthusiast of mobile programming, especially on Android platform. He also has knowledge about writing apps for multiple platforms at once. Excluding mobile stuff, he also developed some .NET technology web pages. Despite all these niuances in his mobile career, he always gets back to Android as his target platform. The best part of his job is not writing code itself, but its design and applying various good practices, including Clean Code. He likes Google ecosystem and he's a very active Google Keep notes app user. This usage has been increased to the extent, that he discovered that yes, there is a limit of note categories in the app.  It gives an insight about how he likes his notes, and his code, to be well structured and clean. In private life he's an active player of tabletop Dungeons & Dragons with several years sank into it. What is more, his other passion is his bike and cycling in general.",
+                    "photo_url": "/images/speakers/maciej-puchalski.png",
+                    "linkedin": "https://www.linkedin.com/in/maciej-puchalski-5ab71a133/"
                 },
                 "speaker-zachary-markin": { //39
-                       "firstname": "Zachary",
-                       "lastname": "Markin",
-                       "bio_html": "Founding Partner at HTD - the leading innovation consultancy serving the health industry.",
-                       "photo_url": "/images/speakers/zachary-markin.png",
-                       "www": "http://www.htdevelopers.com/"
+                    "firstname": "Zachary",
+                    "lastname": "Markin",
+                    "bio_html": "Founding Partner at HTD - the leading innovation consultancy serving the health industry.",
+                    "photo_url": "/images/speakers/zachary-markin.png",
+                    "www": "http://www.htdevelopers.com/"
                 },
                 "speaker-aliaksandr-zhukovich": { //40
-                       "firstname": "Aliaksandr ",
-                       "lastname": "Zhukovich",
-                        "bio_html": "My name is Alex. I'm a software enthusiast with passion for technologies. I started from Web development and last few years I'm working on Android projects. I have a passion for well written and tested software products. I like to share knowledge with articles, meetups and conferences. Last few months I'm additionally working on education project about Android testing.",
-                       "photo_url": "/images/speakers/aliaksandr-zhukovich.png",
-                       "www": "http://alexzh.com/",
-                       "twitter" : "https://twitter.com/Alex_Zhukovich"
+                    "firstname": "Aliaksandr ",
+                    "lastname": "Zhukovich",
+                    "bio_html": "My name is Alex. I'm a software enthusiast with passion for technologies. I started from Web development and last few years I'm working on Android projects. I have a passion for well written and tested software products. I like to share knowledge with articles, meetups and conferences. Last few months I'm additionally working on education project about Android testing.",
+                    "photo_url": "/images/speakers/aliaksandr-zhukovich.png",
+                    "www": "http://alexzh.com/",
+                    "twitter": "https://twitter.com/Alex_Zhukovich"
                 }
             },
             talks: {
@@ -727,7 +612,7 @@ docpadConfig = {
                 },
                 "talk-kodein": { //5
                     "title": "The Kodein KOtlin DEpendency INjection library",
-                    "description_html" :"Kodein is a library that allows for ideomatic & semantic dependency injection in Kotlin. In this talk, I will first present Kodein, its goals and achievements. I will then propose a live coding showing how to use Kodein in an Android application.", 
+                    "description_html": "Kodein is a library that allows for ideomatic & semantic dependency injection in Kotlin. In this talk, I will first present Kodein, its goals and achievements. I will then propose a live coding showing how to use Kodein in an Android application.",
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": [
@@ -871,13 +756,13 @@ docpadConfig = {
                     ]
                 },
                 "talk-advanced-retrofit": { //39
-                      "title": "Advanced Retrofit",
-                      "description_html": "Retrofit library makes developers life easier. It serves for something very important these times - to connect to the Internet and get data from it. Everything in Retrofit is simplified to the required minimum of code to be written. In this talk there will be described advanced concepts, along with a little introduction to the library.",
-                      "audience_level": "Intermediate",
-                      "language": "EN",
-                      "speakers_keys": [
+                    "title": "Advanced Retrofit",
+                    "description_html": "Retrofit library makes developers life easier. It serves for something very important these times - to connect to the Internet and get data from it. Everything in Retrofit is simplified to the required minimum of code to be written. In this talk there will be described advanced concepts, along with a little introduction to the library.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": [
                         "speaker-maciej-puchalski"
-                      ]
+                    ]
                 },
                 "talk-optimizing-android-apps": { //34
                     "title": "Optimizing Android apps for desktop experience",
@@ -1021,16 +906,14 @@ docpadConfig = {
                     "description_html": "This is couple of words about Mobilization. For community by community.",
                     "audience_level": "Beginner",
                     "language": "EN",
-                    "speakers_keys": [
-                    ]
+                    "speakers_keys": []
                 },
                 "talk-finally": {
                     "title": "Finally meeting",
                     "description_html": "Time to give thanks to all the sponsors and the organizer\'s team.",
                     "audience_level": "Advanced",
                     "language": "EN",
-                    "speakers_keys": [
-                    ]
+                    "speakers_keys": []
                 },
                 "talk-drink-espresso": {
                     "title": "Drink Espresso during Android Testing",
@@ -1092,7 +975,7 @@ docpadConfig = {
             schedule: {
                 "slot-registration": {"break_key": "break-registration"},
                 "slot-hello-world": {
-                    "venue-tomtom" : { 
+                    "venue-tomtom": {
                         "talk_key": "talk-hello-world"
                     }
                 },
@@ -1147,7 +1030,7 @@ docpadConfig = {
                         "talk_key": "talk-speech-analysis-techniques"
                     },
                     "venue-seqr": {
-                          "talk_key": "talk-breaking-bug"
+                        "talk_key": "talk-breaking-bug"
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},
@@ -1381,7 +1264,7 @@ docpadConfig = {
         getPreparedKeywords: function () {
             return this.site.keywords.concat(this.document.keywords || []).join(', ');
         },
-        getPreparedAuthor: function() {
+        getPreparedAuthor: function () {
             return this.site.author;
         },
         getHtmlLangImg: function (_talk) {

@@ -1,0 +1,32 @@
+<!--PARTNERS-->
+<section id="ts-partners" class="ts-sponsors">
+    <div class="container">
+        <div class="row text-center">
+            <h2 class="section-title">Supporting Our Project</h2>
+            <p class="section-sub-title">Event Partners</p>
+        </div>
+
+        <% for partner_category_key, partner_category of @site.partners: %>
+        <% if partner_category.length > 0: %>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="partners-heading text-center">
+                    <h3 class="uppercase"><span class="span-ash-light"><%= partner_category_key %></span></h3>
+                </div>
+                <div class="row text-center">
+                    <% for partner_key, partner of partner_category: %>
+                    <div style="display: inline-block; width: 240px">
+                    <% if 'link' of partner: %><a href="<%= partner.link %>" target="_blank"><% end %>
+                    <img class="img-responsive" src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>"/>
+                    <% if 'link' of partner: %></a><% end %></div>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+        <% end %>
+        <% end %>
+    </div>
+    <!--/ Container end -->
+</section>
+<!-- /PARTNERS -->
+
