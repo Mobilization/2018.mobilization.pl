@@ -15,7 +15,7 @@
                 </div>
                 <div class="row text-center">
                     <% for partner_key, partner of partner_category: %>
-                    <div style="display: inline-block; width: 240px">
+                    <div style="display: inline-block; width: 240px; margin: 30px">
                     <% if 'link' of partner: %><a href="<%= partner.link %>" target="_blank"><% end %>
                     <img class="img-responsive" src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>"/>
                     <% if 'link' of partner: %></a><% end %></div>
