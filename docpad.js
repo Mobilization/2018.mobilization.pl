@@ -64,15 +64,14 @@ docpadConfig = {
                 community: [
                     {
                         "name": "Android Developer Group Poznań",
-                        "logo_url": partnersImgBaseUrl + "adg-poznan-logo.png",
+                        "logo_url": partnersImgBaseUrl + 'adg-poznan-logo.png',
                         "link": "https://www.meetup.com/Poznan-Android-Developer-Group/"
                     },
-		    {
+		            {
                         "name": "Mobile Central Europe",
-                        "logo_url": partnersImgBaseUrl + "MCE_2018_logo_main-300px.png",
+                        "logo_url": partnersImgBaseUrl + 'mceconf.png',
                         "link": "https://mceconf.com"
-                    }
-
+                    },
                 ],
             },
             slots: {
