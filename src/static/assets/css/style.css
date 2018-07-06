@@ -1894,6 +1894,7 @@ ul.navbar-nav > li:hover > a {
 }
 
 .sponsor-title {
+    text-transform: capitalize;
     max-width: 750px;
     margin: 0 auto;
 }

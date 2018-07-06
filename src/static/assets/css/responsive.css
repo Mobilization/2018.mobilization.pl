@@ -730,6 +730,7 @@
 	.sponsor-title{
 		margin-bottom: 40px;
 		font-size: 20px;
+		text-transform: capitalize;
 	}
 
 	/* Pricing */

@@ -48,7 +48,13 @@ docpadConfig = {
             sponsors: {
                 diamond: [
                 ],
-                platinum: [],
+                platinum: [
+                {
+                        "name": "Idemia",
+                        "logo_url": sponsorsImgBaseUrl + "idemia-vertical-300px.jpg",
+                        "link": "https://www.idemia.com/"
+                    }
+                ],
                 gold: [],
                 silver: [],
             },
