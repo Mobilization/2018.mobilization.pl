@@ -73,6 +73,13 @@ docpadConfig = {
                         "link": "https://mceconf.com"
                     },
                 ],
+                media : [
+                    {
+                        "name": "Młodzi w Łodzi",
+                        "logo_url": partnersImgBaseUrl + 'mwl-square.png',
+                        "link": "https://mlodziwlodzi.pl/"
+                    },
+                ]
             },
             slots: {
                 'slot-registration': {
