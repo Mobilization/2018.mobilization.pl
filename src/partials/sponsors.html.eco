@@ -11,7 +11,7 @@
 		<div class="row sponsor-padding text-center">
 			<h3 class="sponsor-title"><%= sponsor_category_key %></h3>
 			<% for sponsor_key, sponsor of sponsor_category: %><div style="display: inline-block; width: 300px">
-				<a href="<%= sponsor.link %>" class="sponsor-logo">
+				<a href="<%= sponsor.link %>" class="sponsoor-logo">
 					<img class="img-responsive" src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
 				</a>
 			</div><% end %>

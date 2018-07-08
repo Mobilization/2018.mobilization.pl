@@ -28,7 +28,7 @@ docpadConfig = {
                 "registration": false,
                 "agenda": false,
                 "speakers": false,
-                "sponsors": false,
+                "sponsors": true,
                 "partners": true
             },
             event: {
@@ -248,7 +248,7 @@ docpadConfig = {
                 "venue-glase": {
                     "title": "Glase"
                 },
-                "venue-platinum3": {
+                "venue-mobica": {
                     "title": "Platinum"
                 },
                 "venue-platinum4": {
