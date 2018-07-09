@@ -49,11 +49,16 @@ docpadConfig = {
                 diamond: [
                 ],
                 platinum: [
+                                {
+                    "name" : "Glase",
+                    "logo_url" : sponsorsImgBaseUrl + "glase-300px.png",
+                    "link" : "https://www.glase.se/en/"
+                },
                 {
                         "name": "Idemia",
                         "logo_url": sponsorsImgBaseUrl + "idemia-vertical-300px.jpg",
                         "link": "https://www.idemia.com/"
-                    }
+                },
                 ],
                 gold: [],
                 silver: [],
