@@ -78,10 +78,35 @@ docpadConfig = {
                         "logo_url": partnersImgBaseUrl + 'adg-poznan-logo.png',
                         "link": "https://www.meetup.com/Poznan-Android-Developer-Group/"
                     },
+                    {
+                        "name": "TOAST - Android Developers Meetup",
+                        "logo_url": partnersImgBaseUrl + 'toast.png',
+                        "link": "https://www.meetup.com/TOAST-Android-Developers-Meetups/"
+                    },
+                    {
+                        "name": "GDG Rzeszów",
+                        "logo_url": partnersImgBaseUrl + 'gdg-rzeszow.png',
+                        "link": "https://gdgrzeszow.pl/"
+                    },
+                    {
+                        "name": "Let Swift",
+                        "logo_url": partnersImgBaseUrl + 'let-swift.png',
+                        "link": "https://www.facebook.com/letswiftwroclaw/"
+                    },
+                    {
+                        "name": "Meet.mobile",
+                        "logo_url": partnersImgBaseUrl + 'meet-mobile.png',
+                        "link": "https://www.meetup.com/meet-mobile/"
+                    },                    
 		            {
                         "name": "Mobile Central Europe",
                         "logo_url": partnersImgBaseUrl + 'mceconf.png',
                         "link": "https://mceconf.com"
+                    },
+                    {
+                        "name": "Women Techmakers Rzeszów",
+                        "logo_url": partnersImgBaseUrl + 'wtm-rzeszow.png',
+                        "link": "https://www.facebook.com/WTMrzeszow/"
                     },
                 ],
                 media : [
@@ -89,6 +114,11 @@ docpadConfig = {
                         "name": "Młodzi w Łodzi",
                         "logo_url": partnersImgBaseUrl + 'mwl-square.png',
                         "link": "https://mlodziwlodzi.pl/"
+                    },
+                    {
+                        "name": "Programista Magazyn",
+                        "logo_url": partnersImgBaseUrl + 'programistamag.png',
+                        "link": "https://programistamag.pl/"
                     },
                 ]
             },
