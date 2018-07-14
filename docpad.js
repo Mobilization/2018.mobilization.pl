@@ -25,7 +25,7 @@ docpadConfig = {
             scripts: [],
             visibility: {
                 "call_for_papers": true,
-                "registration": false,
+                "registration": true,
                 "agenda": false,
                 "speakers": false,
                 "sponsors": true,
