@@ -28,7 +28,7 @@
                         <h3 class="banner-desc">Lodz, POLAND</b></h3>
                         <% if @site.visibility.registration: %>
                         <p class="banner-btn">
-                            <a href="#" class="btn btn-primary"><i class="fab fa-earlybirds"></i> Register Now #EARLYBIRD </a>
+                            <a href="https://bit.ly/mobilization8-register" class="btn btn-primary"><i class="fab fa-earlybirds"></i>Register Now</a>
                         </p>
                         <% end %>
                     </div>
