@@ -47,9 +47,13 @@ docpadConfig = {
             },
             sponsors: {
                 diamond: [
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
                 ],
                 platinum: [
-                                {
+                {
                     "name" : "Glase",
                     "logo_url" : sponsorsImgBaseUrl + "glase-300px.png",
                     "link" : "https://www.glase.se/en/"
@@ -59,9 +63,67 @@ docpadConfig = {
                         "logo_url": sponsorsImgBaseUrl + "idemia-vertical-300px.jpg",
                         "link": "https://www.idemia.com/"
                 },
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },
                 ],
-                gold: [],
-                silver: [],
+                gold: [
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },                                                
+                ],
+                silver: [
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                },
+                ],
+                afterparty: [
+                {
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                ]
             },
             partners: {
                 organizers: [
