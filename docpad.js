@@ -48,8 +48,9 @@ docpadConfig = {
             sponsors: {
                 diamond: [
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "TomTom",
+                    "logo_url" : sponsorsImgBaseUrl + "tomtom-on-white.png",
+                    "link" : "https://www.tomtom.com/pl_pl/"
                 },
                 ],
                 platinum: [
