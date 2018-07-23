@@ -65,8 +65,9 @@ docpadConfig = {
                         "link": "https://www.idemia.com/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Mobica",
+                    "logo_url" : sponsorsImgBaseUrl + "mobica.png",
+                    "link": "https://www.mobica.com/"
                 },
                 {
                     "name" : "Reserved",
@@ -347,7 +348,7 @@ docpadConfig = {
                     "title": "Glase"
                 },
                 "venue-mobica": {
-                    "title": "Platinum"
+                    "title": "Mobica"
                 },
                 "venue-harman": {
                     "title": "Platinum"
