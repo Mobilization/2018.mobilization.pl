@@ -103,8 +103,9 @@ docpadConfig = {
                 ],
                 silver: [
                 {
-                    "name" : "Reserved",
+                    "name" : "Appyourself",
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "link" : "https://appyourself.net/en/"
                 },
                 {
                     "name" : "Reserved",
