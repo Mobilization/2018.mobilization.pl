@@ -27,7 +27,7 @@ docpadConfig = {
                 "call_for_papers": true,
                 "registration": true,
                 "agenda": false,
-                "speakers": false,
+                "speakers": true,
                 "sponsors": true,
                 "partners": true
             },
@@ -284,7 +284,8 @@ docpadConfig = {
                 "speaker-enrique-lopez-manas": {//1
                     "firstname": "Enrique",
                     "lastname": "Lopez Manas",
-                    "bio_html": "<a href='bit.ly/EnriqueLopezManas'>EnriqueLopezManas</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
+                    "job_title": "Software Engineer",
+                    "bio_html": "<a href=\"https://bit.ly/EnriqueLopezManas\">EnriqueLopezManas</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
                     "www": "http://lopez-manas.com",
                     "twitter": "https://twitter.com/eenriquelopez",
                     "facebook": "",

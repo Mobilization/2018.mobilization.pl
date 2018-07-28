@@ -1,0 +1,97 @@
+<!--SPEAKERS-->
+<section id="ts-speakers" class="ts-speakers gradient-bg">
+	<div class="container">
+		<div class="row text-center">
+			<h2 class="section-title">Revolutionizing the World</h2>
+			<h3 class="section-sub-title title-white">Visionary Speakers</h3>
+		</div>
+		<!--/ Title row end -->
+		<div class="row">
+		<% i = 0 %>
+		<% for index, speaker_key of @getOrderedSpeakersKeys(): %>
+		<% speaker = @site.speakers[speaker_key]; ++i; %>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="ts-speaker">
+					<div class="ts-speaker-image">
+						<img class="img-responsive" src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"/>
+					</div>
+					<div class="ts-speaker-info">
+						<h3 class="ts-speaker-name"><a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>"><%= speaker.firstname %> <%= speaker.lastname %></a></h3>
+						<p class="ts-speaker-designation"><%= speaker.job_title %></p>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="speaker-more-info-<%= speaker_key %>" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div class="speaker-info-box-content">
+								<div class="text-center">
+									<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
+									<h1><%= speaker.firstname %> <%= speaker.lastname %></h1>
+								</div>
+								<div class="bio"><%- speaker.bio_html %></div>
+								<div class="talk">
+									<% speaker_talk_keys = Array() %>
+									<% for talk_key, talk of @site.talks: %>
+										<% if speaker_key in talk.speakers_keys: %>
+											<% speaker_talk_keys.push(talk_key) %>
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('<%= talk_key %>')" data-dismiss="modal"><strong><%= talk.title %></strong></a></span>
+										<% end %>
+									<% end %>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer" style="text-align: center;">
+							<% if 'www' of speaker and speaker.www.length > 0: %>
+								&nbsp;<a class="sp-www" href="<%= speaker.www %>"><i class="fa fa-globe fa-2x"></i></a>&nbsp;
+							<% end %>
+
+							<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
+							&nbsp;<a class="sp-tw" href="<%= speaker.twitter %>"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;
+							<% end %>
+
+							<% if 'facebook' of speaker and speaker.facebook.length > 0:%>
+							&nbsp;<a class="sp-fb" href="<%= speaker.facebook %>"><i class="fa fa-facebook fa-2x"></i></a>&nbsp;
+							<% end %>
+
+							<% if 'github' of speaker and speaker.github.length > 0: %>
+							&nbsp;<a class="sp-gh" href="<%= speaker.github %>"><i class="fa fa-github fa-2x"></i></a>&nbsp;
+							<% end %>
+
+							<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
+							&nbsp;<a class="sp-in" href="<%= speaker.linkedin %>"><i class="fa fa-linkedin fa-2x"></i></a>&nbsp;
+							<% end %>
+
+							<% if 'medium' of speaker and speaker.medium.length > 0: %>
+							&nbsp;<a class="sp-mm" href="<%= speaker.medium %>"><i class="fa fa-medium fa-2x"></i></a>&nbsp;
+							<% end %>
+						</div>
+					</div>
+				</div>
+			</div>
+			<% if i % 4 == 0: %>
+				<div class="gap-40"></div>
+			<% end %>
+		<% end %>
+		</div>
+
+		<div class="gap-40"></div>
+		<% if @site.visibility.call_for_papers: %>
+			<div class="row">
+				<div class="general-btn text-center">
+					<a class="btn btn-primary" href="https://bit.ly/mobilization8-c4p-webpage"><i class="far fa-thumbs-up"></i> Become our Speaker!</a>
+				</div>
+			</div>
+		<% end %>
+		<!-- Content row 2 end -->
+	</div>
+	<!--/ Container end -->
+</section>
+<!-- Speakers end -->
+<!-- /SPEAKERS -->

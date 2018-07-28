@@ -54,27 +54,27 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- Javascript Files
 ================================================== -->
 <!-- initialize jQuery Library -->
-<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.js"></script>
 <!-- Bootstrap jQuery -->
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 <!-- Counter -->
-<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
 <!-- Countdown -->
-<script type="text/javascript" src="assets/js/jquery.jCounter.js"></script>
+<script src="assets/js/jquery.jCounter.js"></script>
 <!-- Waypoints -->
-<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
 <!-- Color box for Popup-->
-<script type="text/javascript" src="assets/js/jquery.colorbox.js"></script>
+<script src="assets/js/jquery.colorbox.js"></script>
 <!-- Smoothscroll -->
-<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
 <!-- Google Map API Key-->
-<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
 <!-- Google Map Plugin-->
-<script type="text/javascript" src="assets/js/gmap3.js"></script>
+<script src="assets/js/gmap3.js"></script>
 <!-- Modal video -->
-<script type="text/javascript" src="assets/js/jquery.modal-video.js"></script>
+<script src="assets/js/jquery.modal-video.js"></script>
 <!-- Template custom -->
-<script type="text/javascript" src="assets/js/custom.js"></script>
+<script src="assets/js/custom.js"></script>
 
 </div>
 <!-- Body inner end -->
