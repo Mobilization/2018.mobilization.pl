@@ -27,7 +27,7 @@ docpadConfig = {
                 "call_for_papers": true,
                 "registration": true,
                 "agenda": false,
-                "speakers": true,
+                "speakers": false,
                 "sponsors": true,
                 "partners": true
             },
