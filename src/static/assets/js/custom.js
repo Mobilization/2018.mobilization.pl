@@ -30,7 +30,10 @@ jQuery(function($) {
 
 	if ( $( '#map' ).length > 0 ) {
                 tomtom.key("0xf9hSptMrG8EN2uEAVJ3tnZJ4lri1LW");
-                var map = tomtom.map("map");
+                var map = tomtom.map("map", {
+					center: [51.7507085, 19.4483326],
+				    zoom: 16
+                });
 	}
 
 	/* ----------------------------------------------------------- */
