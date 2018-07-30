@@ -27,7 +27,7 @@ docpadConfig = {
                 "call_for_papers": true,
                 "registration": true,
                 "agenda": false,
-                "speakers": false,
+                "speakers": true,
                 "sponsors": true,
                 "partners": true
             },
@@ -281,17 +281,16 @@ docpadConfig = {
                 },
             },
             speakers: {
-                "speaker-enrique-lopez-manas": {//1
-                    "firstname": "Enrique",
-                    "lastname": "Lopez Manas",
-                    "job_title": "Software Engineer",
-                    "bio_html": "<a href=\"https://bit.ly/EnriqueLopezManas\">EnriqueLopezManas</a> GDE, Android and Mobile developer since 2007. Author of a few books and freelancer.",
-                    "www": "http://lopez-manas.com",
-                    "twitter": "https://twitter.com/eenriquelopez",
+                "speaker-artur-badretdinov": {//1
+                    "firstname": "Artur",
+                    "lastname": "Badretdinov",
+                    "bio_html": "Artur started programming from school because it's fun! He got a Master degrees in Computer Science and Software Engineering when he understood that nowadays it is important to be a team player and to write code in a way that it will be understandable and modifiable. He is a Google Developer Group Lead in Russia, he loves to get knowledge and share his experience. He has developed backend apps on Java and then decided to be closer to users and dove into Android development: school journal, banking app. Now he makes ringtones memorable at Vyng, as a Senior Android Engineer.",
+                    "www": "",
+                    "twitter": "https://twitter.com/gaket",
                     "facebook": "",
-                    "github": "https://github.com/kikoso",
-                    "linkedin": "https://www.linkedin.com/in/eenriquelopez/?ppe=1",
-                    "photo_url": "/images/speakers/enrique-lopez-manas.jpg"
+                    "github": "https://github.com/gaket",
+                    "linkedin": "https://www.linkedin.com/in/gaket",
+                    "photo_url": "/images/speakers/artur-badretdinov.png"
                 },
             },
             talks: {
