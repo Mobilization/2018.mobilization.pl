@@ -303,6 +303,17 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/filip-babić-52b73a130",
                     "photo_url": speakersImgBaseUrl + "filip-babic.png"
                 },
+                "speaker-louis-cad": {//1
+                    "firstname": "Louis",
+                    "lastname": "CAD",
+                    "bio_html": "Android and Kotlin Dev. Efficiency before performance. Bike commuter, velomobile enthusiast.",
+                    "www": "",
+                    "twitter": "https://twitter.com/LouisCAD",
+                    "facebook": "",
+                    "github": "https://github.com/LouisCAD",
+                    "linkedin": "",
+                    "photo_url": speakersImgBaseUrl + "louis-cad.png"
+                },
             },
             talks: {
                 "talk-tbd": {
