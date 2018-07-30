@@ -20,6 +20,8 @@
                 </button>
                 <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
                     <ul class="nav navbar-nav">
+                        <li><a href="/index.html#ts-sponsors">Sponsors</a></li>
+                        <li><a href="/index.html#ts-speakers">Speakers</a></li>
                         <li><a href="/code-of-conduct.html">Code of conduct</a></li>
                         <li><a href="/index.html#ts-venue">Contact</a></li>
 

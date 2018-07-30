@@ -290,7 +290,7 @@ docpadConfig = {
                     "facebook": "",
                     "github": "https://github.com/gaket",
                     "linkedin": "https://www.linkedin.com/in/gaket",
-                    "photo_url": "/images/speakers/artur-badretdinov.png"
+                    "photo_url": speakersImgBaseUrl + "artur-badretdinov.png"
                 },
             },
             talks: {
