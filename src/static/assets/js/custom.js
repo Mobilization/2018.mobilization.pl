@@ -29,11 +29,14 @@ jQuery(function($) {
 	/* -----------------------------------------------------------*/
 
 	if ( $( '#map' ).length > 0 ) {
-                tomtom.key("0xf9hSptMrG8EN2uEAVJ3tnZJ4lri1LW");
-                var map = tomtom.map("map", {
-					center: [51.7507085, 19.4483326],
-				    zoom: 16
-                });
+		let location = [51.7505458, 19.4501351];
+        tomtom.setProductInfo('Mobilization VIII website', '0.1.0');
+        tomtom.key("0xf9hSptMrG8EN2uEAVJ3tnZJ4lri1LW");
+        var map = tomtom.map("map", {
+            center: location,
+            zoom: 16
+        });
+        tomtom.L.marker(location).addTo(map);
 	}
 
 	/* ----------------------------------------------------------- */
