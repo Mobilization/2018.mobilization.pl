@@ -29,28 +29,17 @@ jQuery(function($) {
 	/* -----------------------------------------------------------*/
 
 	if ( $( '#map' ).length > 0 ) {
-		
-      var eventmap = {lat: 51.7505458, lng: 19.4501351};
+                tomtom.key("0xf9hSptMrG8EN2uEAVJ3tnZJ4lri1LW");
+                var map = tomtom.map("map", {
+					center: [51.750632, 19.450548],
+				    zoom: 15
+                });
 
-      $('#map')
-      .gmap3({
-         zoom: 15,
-         center: eventmap,
-         mapTypeId : google.maps.MapTypeId.ROADMAP,
-         scrollwheel: false
-      })
-
-      .marker({
-        position: eventmap
-      })
-
-      .then(function (infowindow) {
-         var map = this.get(0);
-         var marker = this.get(1);
-         marker.addListener('click', function() {
-            infowindow.open(map, marker);
-         });
-      });
+                tomtom.L.circle([51.750632, 19.450548], 20, {
+		            color: 'green',
+		            fillColor: '#39ff14',
+		            fillOpacity: 0.25
+        		}).addTo(map);
 	}
 
 	/* ----------------------------------------------------------- */
