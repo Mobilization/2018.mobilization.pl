@@ -334,6 +334,17 @@ docpadConfig = {
                     "github": "https://github.com/yoichitgy",
                     "photo_url": speakersImgBaseUrl + "yoichi-tagaya.png"
                 },
+                "speaker-benedikt-terhechte": {//6
+                    "firstname": "Benedikt",
+                    "lastname": "Terhechte",
+                    "bio_html": "Benedikt works as a Senior iOS Developer at the professional network XING. In previous jobs he developed solutions for customers such as Disney or Daimler-Chrysler. As an Indie Mac developer, he launched successful apps such as PhotoDesk and Hirundo. Benedikt started investigating Swift right after the 2014 release and writes about it on his popular blog. He also initiated the Core Value and SourceKittenDaemon open source projects",
+                    "www": "https://appventure.me",
+                    "twitter": "https://twitter.com/terhechte",
+                    "facebook": "",
+                    "github": "https://github.com/terhechte",
+                    "linkedin" : "https://www.linkedin.com/in/benediktterhechte",
+                    "photo_url": speakersImgBaseUrl + "benedikt-terhechte.png"
+                },
             },
             talks: {
                 "talk-tbd": {
