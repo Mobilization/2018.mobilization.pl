@@ -292,6 +292,17 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/gaket",
                     "photo_url": speakersImgBaseUrl + "artur-badretdinov.png"
                 },
+                "speaker-filip-babic": {//1
+                    "firstname": "Filip",
+                    "lastname": "Babić",
+                    "bio_html": "A 21 year old Android developer, focusing deeply on optimising code, structuring applications and testing whatever can be tested! Self pronounced Kotlin evangelist, with nearly two years of experience using Kotlin, hugely focusing on the community, giving back to everyone and teaching people, whilst learning from others all the same.  ",
+                    "www": "",
+                    "twitter": "https://twitter.com/filbabic",
+                    "facebook": "",
+                    "github": "https://github.com/filbabic",
+                    "linkedin": "https://www.linkedin.com/in/filip-babić-52b73a130",
+                    "photo_url": speakersImgBaseUrl + "filip-babic.png"
+                },
             },
             talks: {
                 "talk-tbd": {
