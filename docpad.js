@@ -292,7 +292,7 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/gaket",
                     "photo_url": speakersImgBaseUrl + "artur-badretdinov.png"
                 },
-                "speaker-filip-babic": {//1
+                "speaker-filip-babic": {//2
                     "firstname": "Filip",
                     "lastname": "Babić",
                     "bio_html": "A 21 year old Android developer, focusing deeply on optimising code, structuring applications and testing whatever can be tested! Self pronounced Kotlin evangelist, with nearly two years of experience using Kotlin, hugely focusing on the community, giving back to everyone and teaching people, whilst learning from others all the same.  ",
@@ -303,7 +303,7 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/filip-babić-52b73a130",
                     "photo_url": speakersImgBaseUrl + "filip-babic.png"
                 },
-                "speaker-louis-cad": {//1
+                "speaker-louis-cad": {//3
                     "firstname": "Louis",
                     "lastname": "CAD",
                     "bio_html": "Android and Kotlin Dev. Efficiency before performance. Bike commuter, velomobile enthusiast.",
@@ -313,6 +313,26 @@ docpadConfig = {
                     "github": "https://github.com/LouisCAD",
                     "linkedin": "",
                     "photo_url": speakersImgBaseUrl + "louis-cad.png"
+                },
+                "speaker-niklas-baudy": {//4
+                    "firstname": "Niklas",
+                    "lastname": "Baudy",
+                    "bio_html": "Niklas Baudy, Senior Android Developer at moovel in Hamburg, is an affine and young developer who is passionate about Reactive Programming, testable and high quality code.",
+                    "www": "",
+                    "twitter": "https://twitter.com/vanniktech",
+                    "facebook": "",
+                    "github": "https://github.com/vanniktech",
+                    "photo_url": speakersImgBaseUrl + "niklas-baudy.png"
+                },
+                 "speaker-yoichi-tagaya": {//5
+                    "firstname": "Yoichi",
+                    "lastname": "Tagaya",
+                    "bio_html": "Yoichi is the original author of Swinject, which is the most popular dependency injection framework written in and for Swift. He is an iOS engineer and engineering manager working at Mercari Inc, which provides a marketplace app for anyone to sell and buy items in the UK, US and Japan.",
+                    "www": "https://yoichitgy.github.io/",
+                    "twitter": "https://twitter.com/yoichitgy",
+                    "facebook": "",
+                    "github": "https://github.com/yoichitgy",
+                    "photo_url": speakersImgBaseUrl + "yoichi-tagaya.png"
                 },
             },
             talks: {
