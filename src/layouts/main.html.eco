@@ -36,6 +36,9 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- Mobilization -->
 <link rel="stylesheet" href="assets/mobilization/css/mobilization.css">
 
+<link rel="stylesheet" type="text/css" href="assets/css/map.css"/>
+
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -66,15 +69,13 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- Color box for Popup-->
 <script src="assets/js/jquery.colorbox.js"></script>
 <!-- Smoothscroll -->
-<script src="assets/js/smoothscroll.js"></script>
-<!-- Google Map API Key-->
-<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
-<!-- Google Map Plugin-->
-<script src="assets/js/gmap3.js"></script>
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 <!-- Modal video -->
 <script src="assets/js/jquery.modal-video.js"></script>
 <!-- Template custom -->
-<script src="assets/js/custom.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- TomTom Maps -->
+<script type="text/javascript" src="assets/js/tomtom.min.js"></script>
 
 </div>
 <!-- Body inner end -->
