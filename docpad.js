@@ -81,16 +81,17 @@ docpadConfig = {
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
-                    "name" : "Free",
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                },
+                {
+                    "name" : "Reserved",
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
                     "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                },
-                {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
                 },
                 {
                     "name" : "Free",
@@ -113,9 +114,8 @@ docpadConfig = {
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                    "name" : "Reserved",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 ],
                 afterparty: [
