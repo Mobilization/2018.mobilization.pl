@@ -342,6 +342,28 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/benediktterhechte",
                     "photo_url": speakersImgBaseUrl + "benedikt-terhechte.png"
                 },
+                "speaker-hasan-hosgel": {//7
+                    "firstname": "Hasan",
+                    "lastname": "Hosgel",
+                    "bio_html": "Hasan Hoşgel is a dedicated Android developer with professional programming experience since 2003. Since 2010 doing all day long Android application development and also is a Google Developer Expert for Android. \nContinuous improvement of the architecture, performance and also quality are his dedication. \nHe works for Lab1886, beforehand a long time for ImmobilienScout24, Germany’s real estate marketplace leader and also for Kitchen Stories, which offered a premium cooking application. \nAs a co-organizer of the “GDG Berlin Android” and as a speaker, he attended many mobile conferences and several Google Developer Groups across Europe. As well being in program committees and organization of mobile conferences.",
+                    "www": "",
+                    "twitter": "https://twitter.com/alosdev",
+                    "facebook": "",
+                    "github": "https://github.com/alosdev",
+                    "linkedin" : "https://www.linkedin.com/in/hosgel",
+                    "photo_url": speakersImgBaseUrl + "hasan-hosgel.png"
+                },
+                "speaker-joannis-orlandos": {//8
+                    "firstname": "Joannis",
+                    "lastname": "Orlandos",
+                    "bio_html": "Long time OpenSource Swift contributor. Always reinventing the wheel to find new and better solutions.",
+                    "www": "",
+                    "twitter": "https://twitter.com/joannisorlandos",
+                    "facebook": "",
+                    "github": "",
+                    "linkedin" : "",
+                    "photo_url": speakersImgBaseUrl + "joannis-orlandos.png"
+                },
             },
             talks: {
                 "talk-tbd": {
