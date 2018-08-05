@@ -637,7 +637,19 @@ docpadConfig = {
             return items.map(function (value) {
                 return value[0];
             });
-        }
+        },
+        getSponsorLogoWidth: function(sponsor_category_key) {
+            if (sponsor_category_key == "diamond") {
+                return 500;
+            }
+            if (sponsor_category_key == "platinum") {
+                return 310;
+            }
+            if (sponsor_category_key == "gold") {
+                return 260
+            }
+            return 220;
+        },
     },
     collections: {
         posts: function () {
