@@ -49,7 +49,7 @@
 						</div>
 						<div class="modal-footer" style="text-align: center;">
 							<% if 'www' of speaker and speaker.www.length > 0: %>
-								&nbsp;<a class="sp-www" href="<%= speaker.www %>"><i class="fab fa-globe fa-2x"></i></a>&nbsp;
+								&nbsp;<a class="sp-www" href="<%= speaker.www %>"><i class="fa fa-globe fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
