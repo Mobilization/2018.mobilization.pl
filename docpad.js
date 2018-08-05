@@ -364,7 +364,7 @@ docpadConfig = {
                     "linkedin" : "",
                     "photo_url": speakersImgBaseUrl + "joannis-orlandos.png"
                 },
-                "speaker-piotr-wittchen": {//8
+                "speaker-piotr-wittchen": {//9
                     "firstname": "Piotr",
                     "lastname": "Wittchen",
                     "bio_html": "Piotr is a Software Engineer. He has a few years of experience in development of both server and mobile applications. He is also involved in the open-source community. He created and maintains several libraries for Java and Android, which are used by developers and companies across the globe - from Silicon Valley through Poland to Korea. He is also a member of the Silesian Java Users Group (SJUG) and shares his thoughts & experiences on the private technical blog at http://wittchen.io and posts solutions to StackOverflow. According to http://git-awards.com, he is the top 5 open source Java developer in Poland.",
@@ -374,7 +374,17 @@ docpadConfig = {
                     "github": "https://github.com/pwittchen",
                     "linkedin" : "https://www.linkedin.com/in/piotrwittchen/",
                     "photo_url": speakersImgBaseUrl + "piotr-wittchen.png"
-                },                
+                },     
+                "speaker-marcin-moskala": {//10
+                    "firstname": "Marcin",
+                    "lastname": "Moskała",
+                    "bio_html": "Experienced Android and Kotlin developer. Co-author of the book \"Android Development with Kotlin\", founder of Kotlin Academy, an active member of programming and Kotlin community, speaker at international conferences, consultant, and teacher. Except for those activities, Marcin travels and makes data science analysis. He also develops Kotlin Academy portal, which is not only the place where Kotlin community shares knowledge and news, but also the biggest open-source multiplatform Kotlin project.",
+                    "www": "marcinmoskala.com",
+                    "twitter": "https://twitter.com/mmoskala",
+                    "facebook": "",
+                    "github": "https://github.com/MarcinMoskala",
+                    "photo_url": speakersImgBaseUrl + "marcin-moskala.png"
+                },              
             },
             talks: {
                 "talk-tbd": {
