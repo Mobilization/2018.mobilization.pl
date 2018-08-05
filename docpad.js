@@ -364,6 +364,17 @@ docpadConfig = {
                     "linkedin" : "",
                     "photo_url": speakersImgBaseUrl + "joannis-orlandos.png"
                 },
+                "speaker-piotr-wittchen": {//8
+                    "firstname": "Piotr",
+                    "lastname": "Wittchen",
+                    "bio_html": "Piotr is a Software Engineer. He has a few years of experience in development of both server and mobile applications. He is also involved in the open-source community. He created and maintains several libraries for Java and Android, which are used by developers and companies across the globe - from Silicon Valley through Poland to Korea. He is also a member of the Silesian Java Users Group (SJUG) and shares his thoughts & experiences on the private technical blog at http://wittchen.io and posts solutions to StackOverflow. According to http://git-awards.com, he is the top 5 open source Java developer in Poland.",
+                    "www": "http://wittchen.io",
+                    "twitter": "https://twitter.com/piotr_wittchen",
+                    "facebook": "",
+                    "github": "https://github.com/pwittchen",
+                    "linkedin" : "https://www.linkedin.com/in/piotrwittchen/",
+                    "photo_url": speakersImgBaseUrl + "piotr-wittchen.png"
+                },                
             },
             talks: {
                 "talk-tbd": {
