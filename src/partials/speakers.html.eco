@@ -49,27 +49,27 @@
 						</div>
 						<div class="modal-footer" style="text-align: center;">
 							<% if 'www' of speaker and speaker.www.length > 0: %>
-								&nbsp;<a class="sp-www" href="<%= speaker.www %>"><i class="fa fa-globe fa-2x"></i></a>&nbsp;
+								&nbsp;<a class="sp-www" href="<%= speaker.www %>"><i class="fab fa-globe fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
-							&nbsp;<a class="sp-tw" href="<%= speaker.twitter %>"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;
+							&nbsp;<a class="sp-tw" href="<%= speaker.twitter %>"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'facebook' of speaker and speaker.facebook.length > 0:%>
-							&nbsp;<a class="sp-fb" href="<%= speaker.facebook %>"><i class="fa fa-facebook fa-2x"></i></a>&nbsp;
+							&nbsp;<a class="sp-fb" href="<%= speaker.facebook %>"><i class="fab fa-facebook fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'github' of speaker and speaker.github.length > 0: %>
-							&nbsp;<a class="sp-gh" href="<%= speaker.github %>"><i class="fa fa-github fa-2x"></i></a>&nbsp;
+							&nbsp;<a class="sp-gh" href="<%= speaker.github %>"><i class="fab fa-github fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
-							&nbsp;<a class="sp-in" href="<%= speaker.linkedin %>"><i class="fa fa-linkedin fa-2x"></i></a>&nbsp;
+							&nbsp;<a class="sp-in" href="<%= speaker.linkedin %>"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;
 							<% end %>
 
 							<% if 'medium' of speaker and speaker.medium.length > 0: %>
-							&nbsp;<a class="sp-mm" href="<%= speaker.medium %>"><i class="fa fa-medium fa-2x"></i></a>&nbsp;
+							&nbsp;<a class="sp-mm" href="<%= speaker.medium %>"><i class="fab fa-medium fa-2x"></i></a>&nbsp;
 							<% end %>
 						</div>
 					</div>
