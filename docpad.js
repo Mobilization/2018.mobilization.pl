@@ -70,9 +70,9 @@ docpadConfig = {
                     "link": "https://www.mobica.com/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                    "link": "mailto:sponsors@mobilization.pl?subject=I%20am%20interested%20in%20a%20sponsorship%20offer%20for%20Mobilization%202018"
+                    "name" : "Harman",
+                    "logo_url" : sponsorsImgBaseUrl + "harman.jpeg",
+                    "link": "https://services.harman.com/"
                 },
                 ],
                 gold: [
