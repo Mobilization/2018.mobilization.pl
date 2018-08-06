@@ -120,8 +120,9 @@ docpadConfig = {
                 ],
                 afterparty: [
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Digital New Agency",
+                    "logo_url" : sponsorsImgBaseUrl + "dna.png",
+                    "link" : "http://bit.ly/dnapoland"
                 },
                 ],
                 copper: [
