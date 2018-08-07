@@ -106,8 +106,9 @@ docpadConfig = {
                     "link" : "https://appyourself.net/en/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Hycom",
+                    "logo_url" : sponsorsImgBaseUrl + "hycom.png",
+                    "link" : "https://www.hycom.pl/"
                 },
                 {
                     "name" : "Reserved",
