@@ -179,6 +179,13 @@ docpadConfig = {
                         "logo_url": partnersImgBaseUrl + 'wtm-rzeszow.png',
                         "link": "https://www.facebook.com/WTMrzeszow/"
                     },
+                    {
+                        "name": "GDG DevFest Poland 2018 in Wrocław",
+                        "logo_url": partnersImgBaseUrl + 'devfest-wroclaw.png',
+                        "link": "https://wroclaw.devfest.pl/"
+                    },
+
+                    
                 ],
                 media : [
                     {
