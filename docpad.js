@@ -403,7 +403,39 @@ docpadConfig = {
                     "facebook": "",
                     "github": "https://github.com/jinqian",
                     "photo_url": speakersImgBaseUrl + "qian-jin.png"
-                },              
+                },
+                 "speaker-olmo-gallegos": {//12
+                    "firstname": "Olmo",
+                    "lastname": "Gallegos",
+                    "bio_html": "Android Developer since 2011. Speaker, OpenSource maintainer & contributor",
+                    "www": "https://github.com/voghDev",
+                    "twitter": "https://twitter.com/voghDev",
+                    "facebook": "",
+                    "github": "https://github.com/voghDev",
+                    "photo_url": speakersImgBaseUrl + "olmo-gallegos.png"
+                },
+                 "speaker-janina-kutyn": {//13
+                    "firstname": "Janina",
+                    "lastname": "Kutyn",
+                    "bio_html": "Janina is an iOS developer with a passion for sleek user interfaces.\nShe was part of the launch team for Apple Music and is currently\nworking for payment processing leader Adyen.",
+                    "www": "",
+                    "twitter": "https://twitter.com/janinakutyn",
+                    "linkedin" : "https://www.linkedin.com/in/janinakutyn/",
+                    "facebook": "",
+                    "github": "",
+                    "photo_url": speakersImgBaseUrl + "janina-kutyn.png"
+                },
+                 "speaker-arnaud-giuliani": {//14
+                    "firstname": "Arnaud",
+                    "lastname": "Giuliani",
+                    "bio_html": "Mobile & backend developer for more than 11 years. He works at ekito (French tech studio) since 2012, and he has one hand in Android development and the other in Kotlin/Java backend stuff. His current hot topics are Kotlin and the reactive programming.\n\nHe is a speaker since 2016. He talks mostly about <a href='https://medium.com/@giuliani.arnaud/presentations-6b91f53899ac'>Kotlin</a>: \n\nHe's launched the <a href='https://insert-koin.io'>Koin</a> project, a lightweight dependency injection framework for Kotlin\n\nHe regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>medium</a> or on <a href='https://www.ekito.fr/people/arnaud-giuliani/'>ekito's blog</a>.",
+                    "www": "https://medium.com/@giuliani.arnaud",
+                    "twitter": "https://twitter.com/arnogiu",
+                    "linkedin" : "",
+                    "facebook": "",
+                    "github": "https://github.com/arnaudgiuliani",
+                    "photo_url": speakersImgBaseUrl + "arnaud-giuliani.png"
+                },                      
             },
             talks: {
                 "talk-tbd": {
