@@ -111,8 +111,9 @@ docpadConfig = {
                     "link" : "https://www.hycom.pl/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Cybercom Group",
+                    "logo_url" : sponsorsImgBaseUrl + "cybercom.png",
+                    "link" : "https://www.cybercom.com/pl/Poland/"
                 },
                 {
                     "name" : "Reserved",
