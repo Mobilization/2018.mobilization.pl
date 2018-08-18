@@ -104,18 +104,19 @@ docpadConfig = {
                     "link" : "https://appyourself.net/en/"
                 },
                 {
-                    "name" : "Hycom",
-                    "logo_url" : sponsorsImgBaseUrl + "hycom.png",
-                    "link" : "https://www.hycom.pl/"
-                },
-                {
                     "name" : "Cybercom Group",
                     "logo_url" : sponsorsImgBaseUrl + "cybercom.png",
                     "link" : "https://www.cybercom.com/pl/Poland/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Hycom",
+                    "logo_url" : sponsorsImgBaseUrl + "hycom.png",
+                    "link" : "https://www.hycom.pl/"
+                },
+                {
+                    "name" : "IT Kontrakt",
+                    "logo_url" : sponsorsImgBaseUrl + "itkontrakt.png",
+                    "link" : "https://www.itkontrakt.pl/dolaczdonas/cities/lodz/"
                 },
                 ],
                 afterparty: [
