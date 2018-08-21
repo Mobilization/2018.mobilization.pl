@@ -392,7 +392,7 @@ docpadConfig = {
                 "speaker-marcin-moskala": {//10
                     "firstname": "Marcin",
                     "lastname": "Moskała",
-                    "bio_html": "Experienced Android and Kotlin developer. Co-author of the book \"Android Development with Kotlin\", founder of Kotlin Academy, an active member of programming and Kotlin community, speaker at international conferences, consultant, and teacher. Except for those activities, Marcin travels and makes data science analysis. He also develops Kotlin Academy portal, which is not only the place where Kotlin community shares knowledge and news, but also the biggest open-source multiplatform Kotlin project.",
+                    "bio_html": "Experienced Android and Kotlin developer. Co-author of the book \"Android Development with Kotlin\", founder of Kot. Academy, an active member of programming and Kotlin community, speaker at international conferences, consultant, and teacher. Except for those activities, Marcin travels and makes data science analysis. He also develops Kot. Academy portal, which is not only the place where Kotlin community shares knowledge and news, but also the biggest open-source multiplatform Kotlin project.",
                     "www": "http://marcinmoskala.com",
                     "twitter": "https://twitter.com/mmoskala",
                     "facebook": "",
