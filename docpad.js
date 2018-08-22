@@ -467,6 +467,16 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/laurasmorinigo/",
                     "github" : "https://github.com/lauramorinigo",
                     "photo_url": speakersImgBaseUrl + "laura-morinigo.png"
+                },
+                "speaker-marcin-krzyzanowski": {//17
+                    "firstname": "Marcin",
+                    "lastname": "Krzyżanowski",
+                    "bio_html": "After programming for several years, Marcin enjoys working on mobile technologies and cryptography, more than in enterprise business solutions. He has worked on multiple projects with various technologies, currently working on a PDF framework at PSPDFKit.\nHe recently combined his passions, working with CryptoSwift for Apple's new Swift language. With a head full of ideas, in his spare time, he develops and launches new projects including Online Swift Playground, ObjectivePGP, and contributes himself back to the OSS community",
+                    "twitter": "https://twitter.com/krzyzanowskim",
+                    "linkedin" : "https://www.linkedin.com/in/marcinkrzyzanowski/",
+                    "github" : "https://github.com/krzyzanowskim",
+                    "www" : "https://krzyzanowskim.com",
+                    "photo_url": speakersImgBaseUrl + "marcin-krzyzanowski.png"
                 },                                       
             },
             talks: {
