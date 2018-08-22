@@ -441,7 +441,7 @@ docpadConfig = {
                     "github": "https://github.com/arnaudgiuliani",
                     "photo_url": speakersImgBaseUrl + "arnaud-giuliani.png"
                 },
-                 "speaker-vasiliy-zukanov": {//14
+                "speaker-vasiliy-zukanov": {//14
                     "firstname": "Vasiliy",
                     "lastname": "Zukanov",
                     "bio_html": "Vasiliy is a passionate Android developer, blogger and instructor.\nAfter working as a hardware engineer for several years, he is now constantly amazed by the power that software developers have in bringing products to life. Main areas of Vasiliy's professional interests are product, architecture, testing and best practices.\nFor the past couple of years Vasiliy has been writing an Android development blog at www.techyourchance.com\n",
@@ -449,6 +449,24 @@ docpadConfig = {
                     "linkedin" : "",
                     "facebook": "",
                     "photo_url": speakersImgBaseUrl + "vasiliy-zukanov.png"
+                },
+                "speaker-rohan-taneja": {//15
+                    "firstname": "Rohan",
+                    "lastname": "Taneja",
+                    "bio_html": "Rohan is a mobile apps enthusiast who loves talking about the latest in the mobile world, especially at conferences. He’s an organiser with GDG New Delhi and a Google Certified Associate Android Developer. He contributes to open source projects, blogs about tech on Medium and mentors students at Udacity and OpenClassrooms.",
+                    "www": "",
+                    "linkedin" : "",
+                    "facebook": "",
+                    "photo_url": speakersImgBaseUrl + "rohan-taneja.png"
+                },
+                "speaker-laura-morinigo": {//16
+                    "firstname": "Laura",
+                    "lastname": "Morinigo",
+                    "bio_html": "Laura is a Google Developer Expert in Firebase, entrepreneur, and mentor. She has been involved in the tech industry over 10 years, working with different technologies as a fullstack developer and getting involved with education projects teaching coding. She is one of the organizers of GDG Cloud London and Women Techmakers lead. Originally from Buenos Aires, Argentina, she has been a digital nomad for about one year, traveling around; doing talks, workshops and connecting with the local tech communities. While she was on the road she created with her co-founders DMode Labs: a software company that promotes diversity and remote working.",
+                    "twitter": "https://twitter.com/lala_morinigo",
+                    "linkedin" : "https://www.linkedin.com/in/laurasmorinigo/",
+                    "github" : "https://github.com/lauramorinigo",
+                    "photo_url": speakersImgBaseUrl + "laura-morinigo.png"
                 },                                       
             },
             talks: {
