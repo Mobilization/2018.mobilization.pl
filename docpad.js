@@ -77,8 +77,9 @@ docpadConfig = {
                 ],
                 gold: [
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Allegro",
+                    "logo_url" : sponsorsImgBaseUrl + "allegro.png",
+                    "link" : "https://allegro.tech/"
                 },
                 {
                     "name" : "Reserved",
@@ -93,8 +94,8 @@ docpadConfig = {
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Free",
+                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
                 },                                                
                 ],
                 silver: [
