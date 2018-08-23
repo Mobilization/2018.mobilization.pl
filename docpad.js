@@ -453,9 +453,11 @@ docpadConfig = {
                 "speaker-rohan-taneja": {//15
                     "firstname": "Rohan",
                     "lastname": "Taneja",
-                    "bio_html": "Rohan is a mobile apps enthusiast who loves talking about the latest in the mobile world, especially at conferences. He’s an organiser with GDG New Delhi and a Google Certified Associate Android Developer. He contributes to open source projects, blogs about tech on Medium and mentors students at Udacity and OpenClassrooms.",
-                    "www": "",
-                    "linkedin" : "",
+                    "bio_html": "Rohan is a mobile apps enthusiast who loves talking about the latest in the mobile world, with Flutter being his most recent love affair. He’s an organiser with GDG New Delhi and a Google Certified Associate Android Developer. He contributes to open source projects, blogs about tech on Medium and mentors students at Udacity and OpenClassrooms.",
+                    "www": "www.rohantaneja.com",
+                    "github" : "www.github.com/rohan20",
+                    "linkedin" : "https://linkedin.com/in/rohantaneja",
+                    "twitter" : "https://twitter.com/rohantaneja_",
                     "facebook": "",
                     "photo_url": speakersImgBaseUrl + "rohan-taneja.png"
                 },
