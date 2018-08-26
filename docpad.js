@@ -161,6 +161,11 @@ docpadConfig = {
                         "link": "https://www.meetup.com/TOAST-Android-Developers-Meetups/"
                     },
                     {
+                        "name": "GDG DevFest Poland 2018 in Wrocław",
+                        "logo_url": partnersImgBaseUrl + 'devfest-wroclaw.png',
+                        "link": "https://wroclaw.devfest.pl/"
+                    },
+                    {
                         "name": "GDG Rzeszów",
                         "logo_url": partnersImgBaseUrl + 'gdg-rzeszow.png',
                         "link": "https://gdgrzeszow.pl/"
@@ -181,17 +186,15 @@ docpadConfig = {
                         "link": "https://mceconf.com"
                     },
                     {
+                        "name": "Mobile Warsaw",
+                        "logo_url": partnersImgBaseUrl + 'mobile-warsaw.png',
+                        "link": "https://mobile-warsaw.pl/"
+                    },                    
+                    {
                         "name": "Women Techmakers Rzeszów",
                         "logo_url": partnersImgBaseUrl + 'wtm-rzeszow.png',
                         "link": "https://www.facebook.com/WTMrzeszow/"
                     },
-                    {
-                        "name": "GDG DevFest Poland 2018 in Wrocław",
-                        "logo_url": partnersImgBaseUrl + 'devfest-wroclaw.png',
-                        "link": "https://wroclaw.devfest.pl/"
-                    },
-
-                    
                 ],
                 media : [
                     {
