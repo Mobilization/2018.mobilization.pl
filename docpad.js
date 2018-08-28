@@ -82,8 +82,9 @@ docpadConfig = {
                     "link" : "https://allegro.tech/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
+                    "name" : "Fujitsu",
+                    "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
+                    "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
                 },
                 {
                     "name" : "Reserved",
