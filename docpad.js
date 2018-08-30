@@ -139,6 +139,11 @@ docpadConfig = {
                     "logo_url" : sponsorsImgBaseUrl + "moovel.png",
                     "link" : "https://www.moovel.com/de/en"
                 },
+                {
+                    "name" : "Five",
+                    "logo_url" : sponsorsImgBaseUrl + "five.png",
+                    "link" : "https://five.agency/"
+                },
                 ]
             },
             partners: {
