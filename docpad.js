@@ -494,6 +494,15 @@ docpadConfig = {
                     "github" : "https://github.com/krzyzanowskim",
                     "www" : "https://krzyzanowskim.com",
                     "photo_url": speakersImgBaseUrl + "marcin-krzyzanowski.png"
+                },
+                "speaker-paul-hudson": {//18
+                    "firstname": "Paul",
+                    "lastname": "Hudson",
+                    "bio_html": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
+                    "twitter": "https://twitter.com/twostraws",
+                    "github" : "https://github.com/twostraws",
+                    "www" : "https://www.hackingwithswift.com",
+                    "photo_url": speakersImgBaseUrl + "paul-hudson.png"
                 },                                       
             },
             talks: {
