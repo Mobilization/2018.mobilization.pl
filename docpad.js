@@ -167,6 +167,11 @@ docpadConfig = {
                         "link": "https://www.meetup.com/TOAST-Android-Developers-Meetups/"
                     },
                     {
+                        "name": "Challenge Rocket",
+                        "logo_url": partnersImgBaseUrl + 'challenge_rocket.png',
+                        "link": "http://bit.ly/MobiChallenge"
+                    },
+                    {
                         "name": "GDG DevFest Poland 2018 in Wrocław",
                         "logo_url": partnersImgBaseUrl + 'devfest-wroclaw.png',
                         "link": "https://wroclaw.devfest.pl/"
