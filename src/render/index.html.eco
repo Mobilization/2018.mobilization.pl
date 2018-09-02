@@ -7,6 +7,7 @@ layout: 'main'
 <%- @partial('about.html', @) %>
 <% if @site.visibility.sponsors: %><%- @partial('sponsors.html', @) %><% end %>
 <% if @site.visibility.partners: %><%- @partial('partners.html', @) %><% end %>
+<% if @site.visibility.talks: %><%- @partial('talks.html', @) %><% end %>
 <% if @site.visibility.speakers: %><%- @partial('speakers.html', @) %><% end %>
 <% if @site.visibility.agenda: %><%- @partial('agenda.html', @) %><% end %>
 <%- @partial('venue.html', @) %>
