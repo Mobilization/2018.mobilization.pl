@@ -503,6 +503,15 @@ docpadConfig = {
                     "github" : "https://github.com/twostraws",
                     "www" : "https://www.hackingwithswift.com",
                     "photo_url": speakersImgBaseUrl + "paul-hudson.png"
+                },
+                "speaker-samuel-goodwin": {//19
+                    "firstname": "Samuel",
+                    "lastname": "Goodwin",
+                    "bio_html": "Independent software developer out of Amsterdam",
+                    "twitter": "https://twitter.com/samuelgoodwin",
+                    "github" : "https://github.com/sgoodwin",
+                    "www" : "https://roundwallsoftware.com",
+                    "photo_url": speakersImgBaseUrl + "samuel-goodwin.png"
                 },                                       
             },
             talks: {
