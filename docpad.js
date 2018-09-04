@@ -512,7 +512,19 @@ docpadConfig = {
                     "github" : "https://github.com/sgoodwin",
                     "www" : "https://roundwallsoftware.com",
                     "photo_url": speakersImgBaseUrl + "samuel-goodwin.png"
-                },                                       
+                },
+                "speaker-jeff-kelley": {//20
+                    "firstname": "Jeff",
+                    "lastname": "Kelley",
+                    "bio_html": "Jeff Kelley is a developer at Detroit Labs, where he builds apps in Swift but still has a soft spot for Objective-C. Author of Developing Apps for Apple Watch and Learn Cocoa Touch for iOS, he’s been working with iOS since its infancy in 2008. Jeff is passionate about building usable apps, the open-source community around Apple platforms, and will talk your ear off about electric cars and clean energy. Jeff loves raising his two kids and two dogs, Detroit, and organizing the Motor City CocoaHeads group.",
+                    "twitter": "https://twitter.com/SlaunchaMan",
+                    "github" : "https://github.com/SlaunchaMan",
+                    "linkedin" : "https://www.linkedin.com/in/jeffreyrkelley",
+                    "www" : "htthttps://jeffkelley.org",
+                    "photo_url": speakersImgBaseUrl + "jeff-kelley.png"
+                },
+
+
             },
             talks: {
                 "talk-tbd": {
