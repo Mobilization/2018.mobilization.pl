@@ -523,6 +523,14 @@ docpadConfig = {
                     "www" : "htthttps://jeffkelley.org",
                     "photo_url": speakersImgBaseUrl + "jeff-kelley.png"
                 },
+                "speaker-daniel-tull": {//21
+                    "firstname": "Daniel",
+                    "lastname": "Tull",
+                    "bio_html": "Daniel has been a Cocoa developer since the Java Bridge existed and the height of Mac rumours was whether Lion would be the chosen cat for the next release. He has meandered through a career working with teams at Sky, Tesco, BBC and Nespresso as well as a minor British celebrity fashion guru.",
+                    "twitter": "https://twitter.com/danielctull",
+                    "github" : "https://github.com/danielctull",
+                    "photo_url": speakersImgBaseUrl + "daniel-tull.png"
+                },
 
 
             },
