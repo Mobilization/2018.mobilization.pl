@@ -97,6 +97,7 @@ docpadConfig = {
                 {
                     "name" : "Free",
                     "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
+                    "link" : "mailto:sponsors@mobilization.pl?subject=Sponsorship%20packages&body=I%20am%20nterested%20in%20the%20sponsorship%20offer%20for%20Mobilization+2018."
                 },                                                
                 ],
                 silver: [
@@ -456,7 +457,7 @@ docpadConfig = {
                     "github": "https://github.com/arnaudgiuliani",
                     "photo_url": speakersImgBaseUrl + "arnaud-giuliani.png"
                 },
-                "speaker-vasiliy-zukanov": {//14
+                "speaker-vasiliy-zukanov": {//15
                     "firstname": "Vasiliy",
                     "lastname": "Zukanov",
                     "bio_html": "Vasiliy is a passionate Android developer, blogger and instructor.\nAfter working as a hardware engineer for several years, he is now constantly amazed by the power that software developers have in bringing products to life. Main areas of Vasiliy's professional interests are product, architecture, testing and best practices.\nFor the past couple of years Vasiliy has been writing an Android development blog at www.techyourchance.com\n",
@@ -465,7 +466,7 @@ docpadConfig = {
                     "facebook": "",
                     "photo_url": speakersImgBaseUrl + "vasiliy-zukanov.png"
                 },
-                "speaker-rohan-taneja": {//15
+                "speaker-rohan-taneja": {//16
                     "firstname": "Rohan",
                     "lastname": "Taneja",
                     "bio_html": "Rohan is a mobile apps enthusiast who loves talking about the latest in the mobile world, with Flutter being his most recent love affair. He’s an organiser with GDG New Delhi and a Google Certified Associate Android Developer. He contributes to open source projects, blogs about tech on Medium and mentors students at Udacity and OpenClassrooms.",
@@ -476,7 +477,7 @@ docpadConfig = {
                     "facebook": "",
                     "photo_url": speakersImgBaseUrl + "rohan-taneja.png"
                 },
-                "speaker-laura-morinigo": {//16
+                "speaker-laura-morinigo": {//17
                     "firstname": "Laura",
                     "lastname": "Morinigo",
                     "bio_html": "Laura is a Google Developer Expert in Firebase, entrepreneur, and mentor. She has been involved in the tech industry over 10 years, working with different technologies as a fullstack developer and getting involved with education projects teaching coding. She is one of the organizers of GDG Cloud London and Women Techmakers lead. Originally from Buenos Aires, Argentina, she has been a digital nomad for about one year, traveling around; doing talks, workshops and connecting with the local tech communities. While she was on the road she created with her co-founders DMode Labs: a software company that promotes diversity and remote working.",
@@ -485,7 +486,7 @@ docpadConfig = {
                     "github" : "https://github.com/lauramorinigo",
                     "photo_url": speakersImgBaseUrl + "laura-morinigo.png"
                 },
-                "speaker-marcin-krzyzanowski": {//17
+                "speaker-marcin-krzyzanowski": {//18
                     "firstname": "Marcin",
                     "lastname": "Krzyżanowski",
                     "bio_html": "After programming for several years, Marcin enjoys working on mobile technologies and cryptography, more than in enterprise business solutions. He has worked on multiple projects with various technologies, currently working on a PDF framework at PSPDFKit.\nHe recently combined his passions, working with CryptoSwift for Apple's new Swift language. With a head full of ideas, in his spare time, he develops and launches new projects including Online Swift Playground, ObjectivePGP, and contributes himself back to the OSS community",
@@ -495,7 +496,7 @@ docpadConfig = {
                     "www" : "https://krzyzanowskim.com",
                     "photo_url": speakersImgBaseUrl + "marcin-krzyzanowski.png"
                 },
-                "speaker-paul-hudson": {//18
+                "speaker-paul-hudson": {//19
                     "firstname": "Paul",
                     "lastname": "Hudson",
                     "bio_html": "Paul is the author of Hacking with Swift, Pro Swift, Swift Design Patterns, Server-Side Swift, Hacking with macOS, Hacking with watchOS, Hacking with tvOS, Swift Coding Challenges, and more. Suffice it to say, he quite likes Swift. And coffee. (But mostly Swift.) (And coffee.)",
@@ -504,7 +505,7 @@ docpadConfig = {
                     "www" : "https://www.hackingwithswift.com",
                     "photo_url": speakersImgBaseUrl + "paul-hudson.png"
                 },
-                "speaker-samuel-goodwin": {//19
+                "speaker-samuel-goodwin": {//20
                     "firstname": "Samuel",
                     "lastname": "Goodwin",
                     "bio_html": "Independent software developer out of Amsterdam",
@@ -513,7 +514,7 @@ docpadConfig = {
                     "www" : "https://roundwallsoftware.com",
                     "photo_url": speakersImgBaseUrl + "samuel-goodwin.png"
                 },
-                "speaker-jeff-kelley": {//20
+                "speaker-jeff-kelley": {//21
                     "firstname": "Jeff",
                     "lastname": "Kelley",
                     "bio_html": "Jeff Kelley is a developer at Detroit Labs, where he builds apps in Swift but still has a soft spot for Objective-C. Author of Developing Apps for Apple Watch and Learn Cocoa Touch for iOS, he’s been working with iOS since its infancy in 2008. Jeff is passionate about building usable apps, the open-source community around Apple platforms, and will talk your ear off about electric cars and clean energy. Jeff loves raising his two kids and two dogs, Detroit, and organizing the Motor City CocoaHeads group.",
@@ -523,7 +524,7 @@ docpadConfig = {
                     "www" : "htthttps://jeffkelley.org",
                     "photo_url": speakersImgBaseUrl + "jeff-kelley.png"
                 },
-                "speaker-daniel-tull": {//21
+                "speaker-daniel-tull": {//22
                     "firstname": "Daniel",
                     "lastname": "Tull",
                     "bio_html": "Daniel has been a Cocoa developer since the Java Bridge existed and the height of Mac rumours was whether Lion would be the chosen cat for the next release. He has meandered through a career working with teams at Sky, Tesco, BBC and Nespresso as well as a minor British celebrity fashion guru.",
