@@ -539,10 +539,10 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/tomaszcholewinski",
                     "photo_url": speakersImgBaseUrl + "tomasz-cholewinski.png"
                 },
-                "speaker-jakub-mazur": {//23
+                "speaker-jakub-mazur": {//24
                     "firstname": "Jakub",
                     "lastname": "Mazur",
-                    "bio_html" : "Lead iOS Developer <a href='https://twitter.com/@wingu'>@wingu</> GmbH",
+                    "bio_html" : "Lead iOS Developer <a href='https://twitter.com/@wingu'>@wingu</a> GmbH",
                     "twitter": "https://twitter.com/jkmazur",
                     "github" : "https://github.com/JakubMazur",
                     "linkedin" : "https://www.linkedin.com/in/jakub-mazur-8350b244",
