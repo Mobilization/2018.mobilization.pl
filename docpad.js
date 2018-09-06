@@ -24,7 +24,7 @@ docpadConfig = {
             styles: [],
             scripts: [],
             visibility: {
-                "call_for_papers": true,
+                "call_for_papers": false,
                 "registration": true,
                 "agenda": false,
                 "speakers": true,
