@@ -532,8 +532,13 @@ docpadConfig = {
                     "github" : "https://github.com/danielctull",
                     "photo_url": speakersImgBaseUrl + "daniel-tull.png"
                 },
-
-
+                "speaker-tomasz-cholewinski": {//23
+                    "firstname": "Tomasz",
+                    "lastname": "Cholewiński",
+                    "bio_html" : "Senior Project Manager at Harman Connected Services. Working with Daimler MBUX, cutting-edge infotainment system being deployed in current and upcoming Mercedes and Maybach cars. Passionate about technology - Automotive, Linux, embedded systems.",
+                    "linkedin" : "https://www.linkedin.com/in/tomaszcholewinski",
+                    "photo_url": speakersImgBaseUrl + "tomasz-cholewinski.png"
+                },
             },
             talks: {
                 "talk-tbd": {
