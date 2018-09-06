@@ -460,7 +460,7 @@ docpadConfig = {
                 "speaker-vasiliy-zukanov": {//15
                     "firstname": "Vasiliy",
                     "lastname": "Zukanov",
-                    "bio_html": "Vasiliy is a passionate Android developer, blogger and instructor.\nAfter working as a hardware engineer for several years, he is now constantly amazed by the power that software developers have in bringing products to life. Main areas of Vasiliy's professional interests are product, architecture, testing and best practices.\nFor the past couple of years Vasiliy has been writing an Android development blog at www.techyourchance.com\n",
+                    "bio_html": "Vasiliy is a passionate Android developer, blogger and instructor.\nAfter working as a hardware engineer for several years, he is now constantly amazed by the power that software developers have in bringing products to life. Main areas of Vasiliy's professional interests are product, architecture, testing and best practices.\nFor the past couple of years Vasiliy has been writing an Android development blog at <a href='https://www.techyourchance.com'>www.techyourchance.com</a>\n",
                     "www": "https://www.techyourchance.com",
                     "linkedin" : "",
                     "facebook": "",
