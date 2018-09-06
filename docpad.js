@@ -145,6 +145,13 @@ docpadConfig = {
                     "logo_url" : sponsorsImgBaseUrl + "five.png",
                     "link" : "https://five.agency/"
                 },
+                {
+                    "name" : "vpTech",
+                    "logo_url" : sponsorsImgBaseUrl + "vptech.png",
+                    "link" : "https://twitter.com/ventepriveetech"
+                },
+
+                
                 ]
             },
             partners: {
