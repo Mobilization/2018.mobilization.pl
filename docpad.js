@@ -548,7 +548,17 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/jakub-mazur-8350b244",
                     "www" : "https://wingu.de",
                     "photo_url": speakersImgBaseUrl + "jakub-mazur.png"
-                },                
+                }, 
+                "speaker-oleksandr-tryshchenko": {//25
+                    "firstname": "Oleksandr",
+                    "lastname": "Tryshchenko",
+                    "bio_html" : "Senior JavaScript developer at <a href='https://twitter.com/@dataart'>@dataart</a>. Public speaker at Poland, Austria, Germany, Ukraine. Functional Programming enthusiast.",
+                    "twitter": "",
+                    "github" : "https://github.com/tryshchenko",
+                    "linkedin" : "https://www.linkedin.com/in/oleksandr-tryshchenko/",
+                    "www" : "https://tryshchenko.com",
+                    "photo_url": speakersImgBaseUrl + "oleksandr-tryshchenko.png"
+                },               
             },
             talks: {
                 "talk-tbd": {
