@@ -558,7 +558,16 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/oleksandr-tryshchenko/",
                     "www" : "https://tryshchenko.com",
                     "photo_url": speakersImgBaseUrl + "oleksandr-tryshchenko.png"
-                },               
+                },
+                "speaker-saul-diaz-gonzalez": {//26
+                    "firstname": "Saul",
+                    "lastname": "Diaz Gonzalez",
+                    "bio_html" : "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. \n\nPreviously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain.\n\nHe is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
+                    "twitter": "https://twitter.com/Sefford",
+                    "github" : "https://github.com/Sefford",
+                    "linkedin" : "https://www.linkedin.com/in/sefford/",
+                    "photo_url": speakersImgBaseUrl + "saul-diaz.png"
+                },              
             },
             talks: {
                 "talk-tbd": {
