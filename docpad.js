@@ -574,6 +574,23 @@ docpadConfig = {
                     "github" : "https://github.com/Sefford",
                     "linkedin" : "https://www.linkedin.com/in/sefford/",
                     "photo_url": speakersImgBaseUrl + "saul-diaz.png"
+                },
+                "speaker-paul-emanuel-garcia": {//27
+                    "firstname": "Paul-Emmanuel",
+                    "lastname": "Garcia",
+                    "bio_html" : "Paul is an iOS developer working in the Product team at Vente-Privee, a succeeding French e-commerce with more than 900k daily and 2.8M monthly active user on iOS.",
+                    "twitter": "https://twitter.com/@pemgarcia",
+                    "github" : "https://github.com/paulemmanuel-garcia",
+                    "photo_url": speakersImgBaseUrl + "paul-garcia.png"
+                },
+                "speaker-maciej-grzybowski": {//27.5
+                    "firstname": "Maciej",
+                    "lastname": "Grzybowski",
+                    "bio_html" : "Maciek is an iOS developer working in the Core team at Vente-Privee, a succeeding French e-commerce with more than 900k daily and 2.8M monthly active user on iOS.",
+                    "twitter": "https://twitter.com/@ncreated",
+                    "github" : "https://github.com/ncreated",
+                    "www" : "http://www.n-created.com",
+                    "photo_url": speakersImgBaseUrl + "maciej-grzybowski.png"
                 },              
             },
             talks: {
