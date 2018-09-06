@@ -521,7 +521,7 @@ docpadConfig = {
                     "twitter": "https://twitter.com/SlaunchaMan",
                     "github" : "https://github.com/SlaunchaMan",
                     "linkedin" : "https://www.linkedin.com/in/jeffreyrkelley",
-                    "www" : "htthttps://jeffkelley.org",
+                    "www" : "https://jeffkelley.org",
                     "photo_url": speakersImgBaseUrl + "jeff-kelley.png"
                 },
                 "speaker-daniel-tull": {//22
@@ -539,6 +539,16 @@ docpadConfig = {
                     "linkedin" : "https://www.linkedin.com/in/tomaszcholewinski",
                     "photo_url": speakersImgBaseUrl + "tomasz-cholewinski.png"
                 },
+                "speaker-jakub-mazur": {//23
+                    "firstname": "Jakub",
+                    "lastname": "Mazur",
+                    "bio_html" : "Lead iOS Developer <a href='https://twitter.com/@wingu'>@wingu</> GmbH",
+                    "twitter": "https://twitter.com/jkmazur",
+                    "github" : "https://github.com/JakubMazur",
+                    "linkedin" : "https://www.linkedin.com/in/jakub-mazur-8350b244",
+                    "www" : "https://wingu.de",
+                    "photo_url": speakersImgBaseUrl + "jakub-mazur.png"
+                },                
             },
             talks: {
                 "talk-tbd": {
