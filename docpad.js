@@ -591,6 +591,16 @@ docpadConfig = {
                     "github" : "https://github.com/ncreated",
                     "www" : "http://www.n-created.com",
                     "photo_url": speakersImgBaseUrl + "maciej-grzybowski.png"
+                },
+                "speaker-gautier-mechling": {//28
+                    "firstname": "Gautier",
+                    "lastname": "Mechling",
+                    "bio_html" : "Android Developer &amp; GDE for IoT.",
+                    "twitter": "https://twitter.com/nilhcem",
+                    "github" : "https://github.com/nilhcem",
+                    "www" : "http://nilhcem.com/",
+                    "linkedin" : "https://www.linkedin.com/in/gautier-mechling-9a0a7236",
+                    "photo_url": speakersImgBaseUrl + "gautier-mechling.png"
                 },              
             },
             talks: {
