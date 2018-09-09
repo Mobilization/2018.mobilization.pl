@@ -601,6 +601,14 @@ docpadConfig = {
                     "www" : "http://nilhcem.com/",
                     "linkedin" : "https://www.linkedin.com/in/gautier-mechling-9a0a7236",
                     "photo_url": speakersImgBaseUrl + "gautier-mechling.png"
+                },
+                "speaker-tomasz-sapeta": {//29
+                    "firstname": "Tomasz",
+                    "lastname": "Sapeta",
+                    "bio_html" : "True JavaScript lover, scuba diver & a photographer devoted to bicycle training but first of all Software Mansioner for more than three years. Crafted multiple React Native mobile apps. Co-creator of projects used by more than a million people. Deeply involved in Expo’s (expo.io) development (WebGL and MediaLibrary in particular). Shares his knowledge at various workshops.",
+                    "twitter": "https://twitter.com/tsapeta",
+                    "github" : "https://github.com/tsapeta",
+                    "photo_url": speakersImgBaseUrl + "tomasz-sapeta.png"
                 },              
             },
             talks: {
