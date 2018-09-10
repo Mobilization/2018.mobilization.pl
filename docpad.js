@@ -646,12 +646,19 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": []
                 },
-                "talk-ui-profiling": {
+                "talk-ui-profiling": { //1
                     "title": "UI profiling in examples. Where is my bottleneck?",
-                    "description_html": "You developed a feature, tested it yourself - everything works well. You send it to the internal testing, your managers... And they say it is slow! Artur ran into the exact same situation and dug into the tools that may be used to make your Android app work on 60 frames per second. This presentation is intended for the people who haven't dived into the UI performance yet. You will see some examples of easy and fast ways to check if your app works well and if it is not, how to find the potential problem. In the presentation, Artur will tell you about: <ul><li>How android renders views and why does it matter to you (DisplayLists, Choreographer, VSync, Render Thread - things that will be covered) <li>How to understand that you have a problem (GPU profiling, SysTrace) <li>How to get metrics about the current rendering speed (fps) of your app (dumpsys gfxinfo, Systrace, HierarchyViewer) <li>Some of their mistakes they made, how he found them and how he fixed them (overlaying Controllers (analog of Fragments), incorrect usage of RecyclerView with NestedScrollViewHow to easily find GPU overdraw and fix it (using GPU overdraw in dev settings and export view layers in HierarchyViewer or Scalpel to show you the ways to improve) -How to be sure that the problem doesn’t regress (Android Vitals, dumpsys gfxinfo)",
+                    "description_html": "You developed a feature, tested it yourself - everything works well. You send it to the internal testing, your managers... And they say it is slow! Artur ran into the exact same situation and dug into the tools that may be used to make your Android app work on 60 frames per second. This presentation is intended for the people who haven't dived into the UI performance yet. You will see some examples of easy and fast ways to check if your app works well and if it is not, how to find the potential problem. In the presentation, Artur will tell you about: <ul><li>How android renders views and why does it matter to you (DisplayLists, Choreographer, VSync, Render Thread - things that will be covered) <li>How to understand that you have a problem (GPU profiling, SysTrace) <li>How to get metrics about the current rendering speed (fps) of your app (dumpsys gfxinfo, Systrace, HierarchyViewer) <li>Some of their mistakes they made, how he found them and how he fixed them (overlaying Controllers (analog of Fragments), incorrect usage of RecyclerView with NestedScrollViewHow to easily find GPU overdraw and fix it (using GPU overdraw in dev settings and export view layers in HierarchyViewer or Scalpel to show you the ways to improve) <li>How to be sure that the problem doesn’t regress (Android Vitals, dumpsys gfxinfo)",
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-artur-badretdinov']
+                },
+                "talk-kotlin-sandwich": { //2
+                    "title": "Making a Kotlin, Architecture Components, Rx and Coroutines sandwich",
+                    "description_html": '"Architecture" keeps being a buzzword in the Android world, even though years have passed since we have seen the first version of the OS. Problems like orientation changes, navigation, data mapping, parsing or display are still around us, and we struggle to make them go away. Using Kotlin and its Coroutines, enveloping the application in Rx and finalizing it with Architecture Components, we can bring the end to nuisances that these problems cause. By heavily relying on generics, asynchronous programming and data persistance, we are able to make a solution, that fits most applications and has an understandable API.',
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-filip-babic']
                 },
             },
             breaks: {
