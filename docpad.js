@@ -26,6 +26,7 @@ docpadConfig = {
             visibility: {
                 "call_for_papers": false,
                 "registration": true,
+                "talks": false,
                 "agenda": false,
                 "speakers": true,
                 "sponsors": true,
