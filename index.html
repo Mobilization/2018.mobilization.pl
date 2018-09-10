@@ -412,7 +412,7 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- /SPONSORS -->
 
 <!--PARTNERS-->
-<section id="ts-partners" class="ts-sponsors">
+<section id="ts-partners" class="ts-partners">
     <div class="container">
         <div class="row text-center">
             <h2 class="section-title">Supporting Our Project</h2>
@@ -530,6 +530,337 @@ integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9
 <!-- /PARTNERS -->
 
 
+<section id="ts-talks" class="ts-talks">
+	<div class="container">
+		<div class="row text-center">
+            <h2 class="section-title"></h2>
+			<p class="section-sub-title">Talks</p>
+		    </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-ui-profiling"></div>
+                    <div class="col-xs-4 center">
+                        <h4>UI profiling in examples. Where is my bottleneck?</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-artur-badretdinov" style="display:block;">
+                                <img src="/assets/images/speakers/artur-badretdinov.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Artur<br/>Badretdinov</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">You developed a feature, tested it yourself - everything works well. You send it to the internal testing, your managers... And they say it is slow!<br>Artur ran into the exact same situation and dug into the tools that may be used to make your Android app work on 60 frames per second. This presentation is intended for the people who haven't dived into the UI performance yet. You will see some examples of easy and fast ways to check if your app works well and if it is not, how to find the potential problem.<br>In the presentation, Artur will tell you about:<ul><li>How android renders views and why does it matter to you (DisplayLists, Choreographer, VSync, Render Thread - things that will be covered)<li>How to understand that you have a problem (GPU profiling, SysTrace)<li>How to get metrics about the current rendering speed (fps) of your app (dumpsys gfxinfo, Systrace, HierarchyViewer)<li>Some of their mistakes they made, how he found them and how he fixed them (overlaying Controllers (analog of Fragments), incorrect usage of RecyclerView with NestedScrollViewHow to easily find GPU overdraw and fix it (using GPU overdraw in dev settings and export view layers in HierarchyViewer or Scalpel to show you the ways to improve)<br>-How to be sure that the problem doesn’t regress (Android Vitals, dumpsys gfxinfo)</ul></p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-kotlin-sandwich"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Making a Kotlin, Architecture Components, Rx and Coroutines sandwich</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-filip-babic" style="display:block;">
+                                <img src="/assets/images/speakers/filip-babic.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Filip<br/>Babić</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Architecture keeps being a buzzword in the Android world, even though years have passed since we've seen the first version of the OS. Problems like orientation changes, navigation, data mapping, parsing or display are still around us, and we struggle to make them go away.<br>Using Kotlin and it's Coroutines, enveloping the application in Rx and finalizing it with Architecture Components, we can bring the end to nuisances that these problems cause. By heavily relying on generics, asynchronous programming and data persistance, we're able to make a solution, that fits most applications and has an understandable API.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-callbacks-hell"></div>
+                    <div class="col-xs-4 center">
+                        <h4>If callbacks are hell, are coroutines the way to heaven?</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-louis-cad" style="display:block;">
+                                <img src="/assets/images/speakers/louis-cad.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Louis<br/>CAD</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">This talk will focus on use cases on Android, but most of it can perfectly be applied on other platforms.<br>While nearly all apps need to perform computations or I/O asynchronously, often off the UI thread (to avoid UI freezes on blocking calls), the solutions have never been straightforward. You could choose between AsyncTask, threads, executors or third-party java libraries, but couldn't avoid the callback hell. Coroutines which came in Kotlin 1.1 are changing this.<br>Kotlin coroutines allow to write code that reads like a good recipe, line by line, without jumps, yet, doesn't block the calling thread.<br>This talk will show how coroutines are relevant in many Android components (ViewModels, Jobs, Services, Activities/Fragments, Views…), for I/O, UI animations, Google Play Services Tasks API usage, and custom async logic.<br>But that's not all. I'll show you how you can take down any callback hell and do things you'd not have done before because it would have polluted your code base too much. You'll also see how Kotlin coroutines can help you handle errors more easily, and exhaustively.<br>Bluetooth Low Energy, a great callback hell example, can also get good with coroutines, and I'll show how I Made GATT Great Again! If you have some safe BLE devices we can connect to, please, bring them at the conference!<br>Camera2 has another big callback hell, plus a complex state machine, and I'll also show how to remove it with coroutines and other Kotlin language features!<br>What you'll learn here will enable you to better take advantage of coroutines features to solve complex problems and deal with hard or badly designed APIs you can't escape.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-kotlin-quality"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Kotlin on Code Quality Tools</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-niklas-baudy" style="display:block;">
+                                <img src="/assets/images/speakers/niklas-baudy.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Niklas<br/>Baudy</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Some might have heard about code quality tools such as Checkstyle, PMD, Findbugs, Lint, Detekt and others but which ones are applicable to Kotlin?<br>I'll list a bunch of tools, explain what they can do, touch on how they work and most importantly show you how you can start using them to be more productive and save a lot of time.<br>With the help of these analyzers you can focus on coding conventions in your team, catch a few bugs and concentrate on what really matters when reviewing code.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-dependency-injection"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Sharing Code between iOS &amp; Android with Rust</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-benedikt-terhechte" style="display:block;">
+                                <img src="/assets/images/speakers/benedikt-terhechte.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Benedikt<br/>Terhechte</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">When having to share code between iOS and Android, most companies choose C++. It is a well known language with very good tooling, but it also has a lot of pitfalls. For one, it is a very complex language. It also makes it really easy to accidentally introduce memory leaks or segmentation faults; especially if you're used to automatic memory management via a GC (Kotlin) or Arc (Swift). It also looks quite different from modern language like Swift or Kotlin. Now that we iOS developers got (mostly) rid of Objective-C, and Android Developers got (mostly) rid of Java, it feels archaic having to go back to a language with an archaic Syntax like C++.<br>Rust looks and feels a lot like Kotlin or Swift, and it offers the same easy ways of sharing code as C++. In addition to that, Rust has a very safe memory management model, high performance, a way to do fearless concurrency, and a very rich package ecosystem. As a bonus, it compiles to WebAssembly, so the shared code could also be used in any HTML5 app. At XING, we started some experiments in Rust in order to find out whether it would be useful to leverage it for code sharing. We're not using it in production yet or anything, but I feel like it would still be nice to introduce it to more developers so they can also start doing some experiments.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-green-rocket"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Living on a green rocket field</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-hasan-hosgel" style="display:block;">
+                                <img src="/assets/images/speakers/hasan-hosgel.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Hasan<br/>Hosgel</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">At Google IO 2018 the Android team announced Jetpack for Android, which is an opinionated set of libraries and architecture, which is a recommendation for Android developers. We at LAB1886, the incubator for the Daimler AG (Mercedes Benz), thought to give it a try with our latest project called RaceScout from AMG. We have the luxury to work always on green fields for projects. So we wanted to share our experience with Jetpack and also give some recommendations for all the library & SDK developers.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-idealistic-apps"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Writing idealistic apps</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-joannis-orlandos" style="display:block;">
+                                <img src="/assets/images/speakers/joannis-orlandos.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Joannis<br/>Orlandos</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">This talk will learn you how to develop clean, maintainable and stable applications in Swift. It will also look at some examples of how I applied these methods in my work.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-app-connected"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Is your app really connected?</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-piotr-wittchen" style="display:block;">
+                                <img src="/assets/images/speakers/piotr-wittchen.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Piotr<br/>Wittchen</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Today, almost every Android app communicates with a remote server through a provided API. We often forget that mobile applications can work offline. Moreover, network can be down or not connected to the Internet. We may also want to synchronize our data through the WiFi, but not through the mobile data transfer to save user's money. What to do, when connection is lost and someone is using an application at the same time? How can we keep the track of network or Internet connectivity changes in our app? How to deal with this problem across all recent Android versions? How to write an application, which is network aware and optimized to reduce power consumption? If you want to know answers to these questions and get rid of endlessly rolling spinners in your app, then this talk is for you.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-machine-learning"></div>
+                    <div class="col-xs-4 center">
+                        <h4>From TensorFlow to ML Kit: power your mobile application with machine learning</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-qian-jin" style="display:block;">
+                                <img src="/assets/images/speakers/qian-jin.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Qian<br/>Jin</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">As a mobile app developer, you probably have noticed Google's active efforts on bringing their machine learning expertise to mobile development. From TensorFlow's earliest mobile app demo to TensorFlow Lite and Android Neural Networks API, we are witnessing how latest research (e.g. MobileNet) drastically reduced machine learning model size and CPU / memory consumption on mobile devices. This year, with the beta release of ML Kit, we now have another powerful toolbox to leverage machine learning in the mobile application development.<br>This talk features a side project Magritte, an educational application that helps people learn foreign languages. It's sort of like Duolingo but with eyes, the application recognizes daily objects using custom machine learning models embedded on device and speaks the vocabulary out loud with the chosen language. By presenting the Magritte app, the talk will reveal how the models for TensorFlow mobile were initially trained and optimized, how the performance was improved with TensorFlow Lite and MobileNets models, and eventually the ongoing migration towards ML Kit.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-effective-tdd"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Effective TDD on Android with Kotlin</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-olmo-gallegos" style="display:block;">
+                                <img src="/assets/images/speakers/olmo-gallegos.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Olmo<br/>Gallegos</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">After one year working with Kotlin in 5+ production Apps, it is time to show a TDD-based stack that made my development process more pleasant, and my life happier :-)</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-ios-performance"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Performance of Standard iOS Elements and Technologies</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-janina-kutyn" style="display:block;">
+                                <img src="/assets/images/speakers/janina-kutyn.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Janina<br/>Kutyn</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">We all know that autolayout comes with a performance hit, but how does it really compare to manual layout, especially with the improvements to the autolayout engine in iOS 12? And what’s a performant way to round the corners of an image? CoreText, UILabel, UITextView: how do all the different ways to draw text perform against each other? Let's discuss the performance differences between comparable iOS elements and technologies.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-koin-android"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Simplify your Android development with Koin</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-arnaud-giuliani" style="display:block;">
+                                <img src="/assets/images/speakers/arnaud-giuliani.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Arnaud<br/>Giuliani</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">In 2016, the Kotlin language has shaken the Android development landscape. It's now time to break the chains from the Java language and get the best of Kotlin.<br>Koin is a pragmatic dependency injection framework for Kotlin/Android developers. Let's see how it's very simple to take in hand and how it will make your life easier: from basic dependency injection to the Android architecture's components, without forgetting the testing part.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-offline-challenges"></div>
+                    <div class="col-xs-4 center">
+                        <h4>The Challenges of Offline Work in Mobile</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-vasiliy-zukanov" style="display:block;">
+                                <img src="/assets/images/speakers/vasiliy-zukanov.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Vasiliy<br/>Zukanov</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Reliable internet connection can't be taken for granted on mobile devices. Therefore, when network is unavailable, mobile apps should either fail gracefully or be able to work offline.<br>However, offline work is one of the most challenging topics in mobile development. And it's not just about mobile: the entire system might need to be offline capable.<br>In this session we will discuss the fundamental challenges of offline work and understand what it takes to implement an offline capable apps.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-flutter-sdk"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Why is Flutter the mobile SDK developers deserve, but the also the one that they need right now?</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-rohan-taneja" style="display:block;">
+                                <img src="/assets/images/speakers/rohan-taneja.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Rohan<br/>Taneja</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS by coding just once in Dart and deploying to both of these platforms. Flutter makes it so easy to build mobile apps without impacting the app’s performance. The app it produces is a treat for the eyes as everything is drawn right on the screen, pixel perfect!<br>“Why do I need this when I already have React Native?”. I got that covered in this talk for you along with the following takeaways:<br>Why coding twice is not productive anymore?<br>A brief about how Flutter came into existence<br>Flutter’s ability to keep the same performance as the native app<br>Comparison with React Native and other dual platform frameworks<br>Best resources to get started with Flutter<br>Fun Fact: Flutter was meant to use JS at first, but the team eventually decided to go with Dart. I’ll talk about this as well.<br>By the end of this talk, you will be itching to write your first app in Flutter!</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row talk">
+                    <div class="anchor" id="talk-crypt-ography"></div>
+                    <div class="col-xs-4 center">
+                        <h4>Why? Because I can - the stories from the crypt(ography)</h4>
+                        
+                        
+                        <div style="clear: both;">
+                            <a data-toggle="modal" href="#speaker-more-info-speaker-marcin-krzyzanowski" style="display:block;">
+                                <img src="/assets/images/speakers/marcin-krzyzanowski.png" alt="" class="small-photo" style="float: left;" />
+                                <p class="speaker-name">Marcin<br/>Krzyżanowski</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xs-8 center">
+                        <p class="speaker-talk">Based on my CryptoSwift open source project experience, I'd like to outline the most frequent issues reported to the support. Programmers comes from various programming environments and uses various schemes, not always understanding what and why. Let's review the most common scenarios to approach encryption with Swift (but in general really)</p>
+                    </div>
+                </div>
+                
+                
+	</div>
+</section>
+
 <!--SPEAKERS-->
 <section id="ts-speakers" class="ts-speakers gradient-bg">
 	<div class="container">
@@ -576,6 +907,39 @@ He's launched the <a href='https://insert-koin.io'>Koin</a> project, a lightweig
 He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>medium</a> or on <a href='https://www.ekito.fr/people/arnaud-giuliani/'>ekito's blog</a>.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-koin-android')" data-dismiss="modal"><strong>Simplify your Android development with Koin</strong></a></span>
+										
 									
 										
 									
@@ -646,6 +1010,39 @@ He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>m
 									
 										
 									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-ui-profiling')" data-dismiss="modal"><strong>UI profiling in examples. Where is my bottleneck?</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -702,6 +1099,39 @@ He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>m
 								<div class="bio">Benedikt works as a Senior iOS Developer at the professional network XING. In previous jobs he developed solutions for customers such as Disney or Daimler-Chrysler. As an Indie Mac developer, he launched successful apps such as PhotoDesk and Hirundo. Benedikt started investigating Swift right after the 2014 release and writes about it on his popular blog. He also initiated the Core Value and SourceKittenDaemon open source projects</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-dependency-injection')" data-dismiss="modal"><strong>Sharing Code between iOS &amp; Android with Rust</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -774,6 +1204,36 @@ He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>m
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -837,6 +1297,39 @@ He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>m
 									
 										
 									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-kotlin-sandwich')" data-dismiss="modal"><strong>Making a Kotlin, Architecture Components, Rx and Coroutines sandwich</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -893,6 +1386,36 @@ He regularly writes articles on <a href='https://medium.com/@giuliani.arnaud/'>m
 								<div class="bio">Android Developer &amp; GDE for IoT.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -968,6 +1491,39 @@ As a co-organizer of the “GDG Berlin Android” and as a speaker, he attended 
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-green-rocket')" data-dismiss="modal"><strong>Living on a green rocket field</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1024,6 +1580,36 @@ As a co-organizer of the “GDG Berlin Android” and as a speaker, he attended 
 								<div class="bio">Lead iOS Developer <a href='https://twitter.com/@wingu'>@wingu</a> GmbH</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1100,6 +1686,39 @@ working for payment processing leader Adyen.</div>
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-ios-performance')" data-dismiss="modal"><strong>Performance of Standard iOS Elements and Technologies</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1154,6 +1773,36 @@ working for payment processing leader Adyen.</div>
 								<div class="bio">An Android developer focusing on providing mobile solutions for startups. He writes a technical blog about Android development and related fields. You can meet him at conferences, meetups, hackathons, as well as on volleyball courts.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1226,6 +1875,36 @@ working for payment processing leader Adyen.</div>
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1291,6 +1970,39 @@ working for payment processing leader Adyen.</div>
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-idealistic-apps')" data-dismiss="modal"><strong>Writing idealistic apps</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1345,6 +2057,36 @@ working for payment processing leader Adyen.</div>
 								<div class="bio">Laura is a Google Developer Expert in Firebase, entrepreneur, and mentor. She has been involved in the tech industry over 10 years, working with different technologies as a fullstack developer and getting involved with education projects teaching coding. She is one of the organizers of GDG Cloud London and Women Techmakers lead. Originally from Buenos Aires, Argentina, she has been a digital nomad for about one year, traveling around; doing talks, workshops and connecting with the local tech communities. While she was on the road she created with her co-founders DMode Labs: a software company that promotes diversity and remote working.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1415,6 +2157,39 @@ working for payment processing leader Adyen.</div>
 									
 										
 									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-callbacks-hell')" data-dismiss="modal"><strong>If callbacks are hell, are coroutines the way to heaven?</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1469,6 +2244,36 @@ working for payment processing leader Adyen.</div>
 								<div class="bio">Maciek is an iOS developer working in the Core team at Vente-Privee, a succeeding French e-commerce with more than 900k daily and 2.8M monthly active user on iOS.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1540,6 +2345,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-crypt-ography')" data-dismiss="modal"><strong>Why? Because I can - the stories from the crypt(ography)</strong></a></span>
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1600,6 +2438,36 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 								<div class="bio">Experienced Android and Kotlin developer. Co-author of the book "Android Development with Kotlin", founder of Kot. Academy, an active member of programming and Kotlin community, speaker at international conferences, consultant, and teacher. Except for those activities, Marcin travels and makes data science analysis. He also develops Kot. Academy portal, which is not only the place where Kotlin community shares knowledge and news, but also the biggest open-source multiplatform Kotlin project.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1670,6 +2538,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-kotlin-quality')" data-dismiss="modal"><strong>Kotlin on Code Quality Tools</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1724,6 +2625,36 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 								<div class="bio">Senior JavaScript developer at <a href='https://twitter.com/@dataart'>@dataart</a>. Public speaker at Poland, Austria, Germany, Ukraine. Functional Programming enthusiast.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1787,6 +2718,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 								<div class="bio">Android Developer since 2011. Speaker, OpenSource maintainer & contributor</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-effective-tdd')" data-dismiss="modal"><strong>Effective TDD on Android with Kotlin</strong></a></span>
+										
+									
+										
+									
+										
 									
 										
 									
@@ -1859,6 +2823,36 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1922,6 +2916,36 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -1976,6 +3000,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 								<div class="bio">Piotr is a Software Engineer. He has a few years of experience in development of both server and mobile applications. He is also involved in the open-source community. He created and maintains several libraries for Java and Android, which are used by developers and companies across the globe - from Silicon Valley through Poland to Korea. He is also a member of the Silesian Java Users Group (SJUG) and shares his thoughts & experiences on the private technical blog at http://wittchen.io and posts solutions to StackOverflow. According to http://git-awards.com, he is the top 5 open source Java developer in Poland.</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-app-connected')" data-dismiss="modal"><strong>Is your app really connected?</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -2048,6 +3105,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-machine-learning')" data-dismiss="modal"><strong>From TensorFlow to ML Kit: power your mobile application with machine learning</strong></a></span>
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -2075,6 +3165,103 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 			</div>
 			
 				<div class="gap-40"></div>
+			
+		
+		
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="ts-speaker">
+					<div class="ts-speaker-image">
+						<img class="img-responsive" src="/assets/images/speakers/raul-portales.png" alt="Photo of Raul Portales"/>
+					</div>
+					<div class="ts-speaker-info">
+						<h3 class="ts-speaker-name"><a data-toggle="modal" href="#speaker-more-info-speaker-raul-portales">Raul Portales</a></h3>
+						<p class="ts-speaker-designation"></p>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="speaker-more-info-speaker-raul-portales" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div class="speaker-info-box-content">
+								<div class="text-center">
+									<img src="/assets/images/speakers/raul-portales.png" alt="Photo of Raul Portales" />
+									<h1>Raul Portales</h1>
+								</div>
+								<div class="bio">Raul is a Software Engineer with a love for computers, electronics and gadgets in general since as long as he remembers. 
+
+He jumped into Android as soon as it was released. Raul has worked on social networks, education, healthcare and even founded a gaming studio and a consultancy company. Specialized on mobile and UX, he speaks frequently at conferences and meetups.</div>
+								<div class="talk">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer" style="text-align: center;">
+							
+								&nbsp;<a class="sp-www" href="http://plattysoft.com"><i class="fa fa-globe fa-2x"></i></a>&nbsp;
+							
+
+							
+							&nbsp;<a class="sp-tw" href="https://twitter.com/sla_shalafi"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;
+							
+
+							
+
+							
+							&nbsp;<a class="sp-gh" href="https://github.com/plattysoft"><i class="fab fa-github fa-2x"></i></a>&nbsp;
+							
+
+							
+							&nbsp;<a class="sp-in" href="https://www.linkedin.com/in/raulportales"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;
+							
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
 			
 		
 		
@@ -2109,6 +3296,39 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-flutter-sdk')" data-dismiss="modal"><strong>Why is Flutter the mobile SDK developers deserve, but the also the one that they need right now?</strong></a></span>
 										
 									
 										
@@ -2171,6 +3391,36 @@ He recently combined his passions, working with CryptoSwift for Apple's new Swif
 								<div class="bio">Independent software developer out of Amsterdam</div>
 								<div class="talk">
 									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
 									
 										
 									
@@ -2245,6 +3495,36 @@ He is an active member of the Spanish Android Development community and regularl
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -2263,65 +3543,6 @@ He is an active member of the Spanish Android Development community and regularl
 
 							
 							&nbsp;<a class="sp-in" href="https://www.linkedin.com/in/sefford/"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;
-							
-
-							
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		
-		
-			<div class="col-xs-12 col-sm-6 col-md-3">
-				<div class="ts-speaker">
-					<div class="ts-speaker-image">
-						<img class="img-responsive" src="/assets/images/speakers/tomasz-cholewinski.png" alt="Photo of Tomasz Cholewiński"/>
-					</div>
-					<div class="ts-speaker-info">
-						<h3 class="ts-speaker-name"><a data-toggle="modal" href="#speaker-more-info-speaker-tomasz-cholewinski">Tomasz Cholewiński</a></h3>
-						<p class="ts-speaker-designation"></p>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="speaker-more-info-speaker-tomasz-cholewinski" role="dialog">
-				<div class="modal-dialog">
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">&times;</button>
-						</div>
-						<div class="modal-body">
-							<div class="speaker-info-box-content">
-								<div class="text-center">
-									<img src="/assets/images/speakers/tomasz-cholewinski.png" alt="Photo of Tomasz Cholewiński" />
-									<h1>Tomasz Cholewiński</h1>
-								</div>
-								<div class="bio">Senior Project Manager at Harman Connected Services. Working with Daimler MBUX, cutting-edge infotainment system being deployed in current and upcoming Mercedes and Maybach cars. Passionate about technology - Automotive, Linux, embedded systems.</div>
-								<div class="talk">
-									
-									
-										
-									
-										
-									
-										
-									
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer" style="text-align: center;">
-							
-
-							
-
-							
-
-							
-
-							
-							&nbsp;<a class="sp-in" href="https://www.linkedin.com/in/tomaszcholewinski"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;
 							
 
 							
@@ -2369,6 +3590,36 @@ He is an active member of the Spanish Android Development community and regularl
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -2385,6 +3636,95 @@ He is an active member of the Spanish Android Development community and regularl
 							&nbsp;<a class="sp-gh" href="https://github.com/tsapeta"><i class="fab fa-github fa-2x"></i></a>&nbsp;
 							
 
+							
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+		
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="ts-speaker">
+					<div class="ts-speaker-image">
+						<img class="img-responsive" src="/assets/images/speakers/tomasz-cholewinski.png" alt="Photo of Tomasz Cholewiński"/>
+					</div>
+					<div class="ts-speaker-info">
+						<h3 class="ts-speaker-name"><a data-toggle="modal" href="#speaker-more-info-speaker-tomasz-cholewinski">Tomasz Cholewiński</a></h3>
+						<p class="ts-speaker-designation"></p>
+					</div>
+				</div>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="speaker-more-info-speaker-tomasz-cholewinski" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<div class="speaker-info-box-content">
+								<div class="text-center">
+									<img src="/assets/images/speakers/tomasz-cholewinski.png" alt="Photo of Tomasz Cholewiński" />
+									<h1>Tomasz Cholewiński</h1>
+								</div>
+								<div class="bio">Senior Project Manager at Harman Connected Services. Working with Daimler MBUX, cutting-edge infotainment system being deployed in current and upcoming Mercedes and Maybach cars. Passionate about technology - Automotive, Linux, embedded systems.</div>
+								<div class="talk">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer" style="text-align: center;">
+							
+
+							
+
+							
+
+							
+
+							
+							&nbsp;<a class="sp-in" href="https://www.linkedin.com/in/tomaszcholewinski"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp;
 							
 
 							
@@ -2427,6 +3767,39 @@ For the past couple of years Vasiliy has been writing an Android development blo
 								<div class="talk">
 									
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('talk-offline-challenges')" data-dismiss="modal"><strong>The Challenges of Offline Work in Mobile</strong></a></span>
 										
 									
 										
@@ -2492,6 +3865,36 @@ For the past couple of years Vasiliy has been writing an Android development blo
 									
 										
 									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
 								</div>
 							</div>
 						</div>
@@ -2517,6 +3920,8 @@ For the past couple of years Vasiliy has been writing an Android development blo
 					</div>
 				</div>
 			</div>
+			
+				<div class="gap-40"></div>
 			
 		
 		</div>
