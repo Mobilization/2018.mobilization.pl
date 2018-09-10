@@ -609,6 +609,16 @@ docpadConfig = {
                     "twitter": "https://twitter.com/tsapeta",
                     "github" : "https://github.com/tsapeta",
                     "photo_url": speakersImgBaseUrl + "tomasz-sapeta.png"
+                },
+                "speaker-jaroslaw-michalik": {//30
+                    "firstname": "Jarosław",
+                    "lastname": "Michalik",
+                    "bio_html" : "An Android developer focusing on providing mobile solutions for startups. He writes a technical blog about Android development and related fields. You can meet him at conferences, meetups, hackathons, as well as on volleyball courts.",
+                    "twitter": "https://twitter.com/rozkminia",
+                    "github" : "https://github.com/rozkminiacz",
+                    "www" : "http://blog.rozkmin.me/",
+                    "linkedin" : "https://www.linkedin.com/in/jaroslawmichalik",
+                    "photo_url": speakersImgBaseUrl + "jaroslaw-michalik.png"
                 },              
             },
             talks: {
