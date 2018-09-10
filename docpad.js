@@ -26,7 +26,7 @@ docpadConfig = {
             visibility: {
                 "call_for_papers": false,
                 "registration": true,
-                "talks": false,
+                "talks": true,
                 "agenda": false,
                 "speakers": true,
                 "sponsors": true,
@@ -623,6 +623,9 @@ docpadConfig = {
                 },              
             },
             talks: {
+                /**
+                UI profiling in examples. Where is my bottleneck?   ""
+*/
                 "talk-tbd": {
                     "title": "TBD",
                     "description_html": "TBD",
@@ -642,6 +645,13 @@ docpadConfig = {
                     "audience_level": "Beginner",
                     "language": "EN",
                     "speakers_keys": []
+                },
+                "talk-ui-profiling": {
+                    "title": "UI profiling in examples. Where is my bottleneck?",
+                    "description_html": "You developed a feature, tested it yourself - everything works well. You send it to the internal testing, your managers... And they say it is slow! Artur ran into the exact same situation and dug into the tools that may be used to make your Android app work on 60 frames per second. This presentation is intended for the people who haven't dived into the UI performance yet. You will see some examples of easy and fast ways to check if your app works well and if it is not, how to find the potential problem. In the presentation, Artur will tell you about: <ul><li>How android renders views and why does it matter to you (DisplayLists, Choreographer, VSync, Render Thread - things that will be covered) <li>How to understand that you have a problem (GPU profiling, SysTrace) <li>How to get metrics about the current rendering speed (fps) of your app (dumpsys gfxinfo, Systrace, HierarchyViewer) <li>Some of their mistakes they made, how he found them and how he fixed them (overlaying Controllers (analog of Fragments), incorrect usage of RecyclerView with NestedScrollViewHow to easily find GPU overdraw and fix it (using GPU overdraw in dev settings and export view layers in HierarchyViewer or Scalpel to show you the ways to improve) -How to be sure that the problem doesn’t regress (Android Vitals, dumpsys gfxinfo)",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-artur-badretdinov']
                 },
             },
             breaks: {
@@ -688,7 +698,7 @@ docpadConfig = {
                     "title": "Mobica"
                 },
                 "venue-harman": {
-                    "title": "Platinum"
+                    "title": "Harman"
                 },
             },
             schedule: {
