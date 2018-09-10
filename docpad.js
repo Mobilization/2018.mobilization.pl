@@ -691,7 +691,7 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-yoichi-tagaya']
                 },
-                "talk-dependency-injection": { //6
+                "talk-rust-sharing": { //6
                     "title": "Sharing Code between iOS & Android with Rust",
                     "description_html": "When having to share code between iOS and Android, most companies choose C++. It is a well known language with very good tooling, but it also has a lot of pitfalls. For one, it is a very complex language. It also makes it really easy to accidentally introduce memory leaks or segmentation faults; especially if you're used to automatic memory management via a GC (Kotlin) or Arc (Swift). It also looks quite different from modern language like Swift or Kotlin. Now that we iOS developers got (mostly) rid of Objective-C, and Android Developers got (mostly) rid of Java, it feels archaic having to go back to a language with an archaic Syntax like C++.<br>Rust looks and feels a lot like Kotlin or Swift, and it offers the same easy ways of sharing code as C++. In addition to that, Rust has a very safe memory management model, high performance, a way to do fearless concurrency, and a very rich package ecosystem. As a bonus, it compiles to WebAssembly, so the shared code could also be used in any HTML5 app. At XING, we started some experiments in Rust in order to find out whether it would be useful to leverage it for code sharing. We're not using it in production yet or anything, but I feel like it would still be nice to introduce it to more developers so they can also start doing some experiments.",
                     "audience_level": "Beginner",
