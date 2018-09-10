@@ -34,12 +34,9 @@ jQuery(function($) {
 					center: [51.750632, 19.450548],
 				    zoom: 15
                 });
+                var marker = tomtom.L.marker([51.750632, 19.450548], {
 
-                tomtom.L.circle([51.750632, 19.450548], 20, {
-		            color: 'green',
-		            fillColor: '#39ff14',
-		            fillOpacity: 0.25
-        		}).addTo(map);
+                }).bindPopup('Lodz International Fairs (Nowa Hala Expo) <img src="http://expo-lodz.pl/assets/gallery/C5D-7927.jpg" width="100" /> ').addTo(map);
 	}
 
 	/* ----------------------------------------------------------- */
