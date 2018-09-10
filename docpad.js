@@ -620,6 +620,16 @@ docpadConfig = {
                     "www" : "http://blog.rozkmin.me/",
                     "linkedin" : "https://www.linkedin.com/in/jaroslawmichalik",
                     "photo_url": speakersImgBaseUrl + "jaroslaw-michalik.png"
+                },
+                "speaker-raul-portales": {//31
+                    "firstname": "Raul",
+                    "lastname": "Portales",
+                    "bio_html" : "Raul is a Software Engineer with a love for computers, electronics and gadgets in general since as long as he remembers. \n\nHe jumped into Android as soon as it was released. Raul has worked on social networks, education, healthcare and even founded a gaming studio and a consultancy company. Specialized on mobile and UX, he speaks frequently at conferences and meetups.",
+                    "twitter": "https://twitter.com/sla_shalafi",
+                    "github" : "https://github.com/plattysoft",
+                    "www" : "http://plattysoft.com",
+                    "linkedin" : "https://www.linkedin.com/in/raulportales",
+                    "photo_url": speakersImgBaseUrl + "raul-portales.png"
                 },              
             },
             talks: {
