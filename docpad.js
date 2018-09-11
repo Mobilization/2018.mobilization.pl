@@ -800,6 +800,13 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-jeff-kelley']
+                },
+                "talk-eschew-convention": { //22
+                    "title": "Codify the Pattern - How Swift lets us eschew convention",
+                    "description_html": "This talk will explore how we can use Swift’s strict typing and generics to create structures that better represent our intentions. I will show how this can decrease the use of internal conventions, which can often lead to misunderstandings and mistakes.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-daniel-tull']
                 },                
             },
             breaks: {
