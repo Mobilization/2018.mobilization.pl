@@ -780,6 +780,27 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-marcin-krzyzanowski']
                 },
+                "talk-hands-coordinators": { //19
+                    "title": "Hands on with Coordinators",
+                    "description_html": "One of the easiest ways to simplify your code is to switch to the coordinator pattern. The concept is simple enough: why should one view controller know about, create, configure, and display another, when all you're doing is creating the worst form of coupling?<br>With coordinators you can split up your app into sensible chunks, where each view controller has no concept of where it exists in your app's flow – or even that the flow exists at all.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-paul-hudson']
+                },
+                "talk-tricky-stufff": { //20
+                    "title": "Testing the Tricky Stuff",
+                    "description_html": "Tutorials all over the internet explain how to setup tests and write simpler ones, but what about in a real app where things aren't so straightforward?",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-samuel-goodwin']
+                },
+                "talk-errors-swift": { //21
+                    "title": "Straying From the Happy Path: Taking Control of Errors in Swift",
+                    "description_html": "Have you ever seen a code comment saying \"this should never happen\"? Have you ever wondered what would happen if it did? Swift has a diverse set of error-handling capabilities, from using throw to send errors up the stack to using a Result to handle errors in asynchronous methods. In this talk, we'll look at the landscape of handling errors in Swift, create new ways of expressing and handling them, and show how even the most impossible code-level situations can have 100% test coverage. By the end, you'll be taking control of the errors in your code, instead of letting them take control of you.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-jeff-kelley']
+                },                
             },
             breaks: {
                 'break-registration': {
