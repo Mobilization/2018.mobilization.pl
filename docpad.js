@@ -807,7 +807,15 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-daniel-tull']
-                },                
+                },  
+                "talk-connected-cars": { //23
+                    "title": "Connected cars in a mobile world",
+                    "description_html": "With the premiere of the new Mercedes A-Class and its next-generation MBUX interface, the connected car has been taken to the next level. Learn about connected infotainment systems, how mobile-friendly they are, and about the software that powers them.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-tomasz-cholewinski']
+                },    
+                               
             },
             breaks: {
                 'break-registration': {
