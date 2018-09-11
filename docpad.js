@@ -811,11 +811,73 @@ docpadConfig = {
                 "talk-connected-cars": { //23
                     "title": "Connected cars in a mobile world",
                     "description_html": "With the premiere of the new Mercedes A-Class and its next-generation MBUX interface, the connected car has been taken to the next level. Learn about connected infotainment systems, how mobile-friendly they are, and about the software that powers them.",
-                    "audience_level": "Intermediate",
+                    "audience_level": "Beginner",
                     "language": "EN",
                     "speakers_keys": ['speaker-tomasz-cholewinski']
-                },    
-                               
+                },
+                "talk-less-code": { //24
+                    "title": "How to write less code. Practical meta-programming and automation.",
+                    "description_html": "The more lines of code we write the more bugs we welcome. Smart and properly tested algorithms are less likely to be wrong, compared to, well.. human beings. This talk is therefore about what I do to avoid boilerplate code and automate everything that needs to run at least twice with the same settings.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-jakub-mazur']
+                },
+                "talk-prototyping-javascript": { //25
+                    "title": "Effective mobile applications prototyping with JavaScript",
+                    "description_html": "We found hybrid applications as an amazing way of prototyping. During the talk I'm going to talk how we leverage possibilities of React Native and Cordova, what's the different between them and how your team could benefit from giving it a try.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-oleksandr-tryshchenko']
+                },
+                "talk-kotlin-arrow": { //26
+                    "title": "An Arrow to the Kotlin",
+                    "description_html": "Kotlin has been a revolution in the past two years, especially in the Android world which were using outdated versions of Java.<br>The language leap is so high, that now we are even allowed to put some Functional Programming in the mix.<br>This is being done through Arrow project, a FP typed library for Kotlin (and compatible with Java)<br>But, instead of doing a boring theroretical introduction to FP principles, we will see practical examplen on how we can complement our classic OOP with FP structures and patterns Arrow provides, and how can we apply them to have more concise and robust code.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-saul-diaz-gonzalez']
+                },
+                "talk-splitting-monolithic": { //27
+                    "title": "Splitting Monolithic Swift Code Base Into Modules",
+                    "description_html": "Modular Architecture - insights from a big French e-commerce. How to challenge the status quo, boost team motivation, productivity and start writing cleaner code with more tests? A journey of sailing from monolithic codebase to modules.<br>Come and hear our story of challenging the status quo and introducing modular architecture:<ul><li>how do we switch to a MVVM+C architecture within existing Swift code base?<li>how do we approach splitting the monolith into modules?<li>how do we boost features development with product modules?<li>how do we get rid of Core Data?<li>is TDD possible in a slowly compiling Swift code base?<li>what are some unobvious benefits of code modularization?</ul>Maciek and Paul represent the international team of 9 iOS developers from Vente-privee. They will give you both, the Core and Product team insights about working with modular architecture.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-paul-emanuel-garcia', 'speaker-maciej-grzybowski']
+                },
+                "talk-home-automation": { //28
+                    "title": "Home Automation with Android Things and the Google Assistant",
+                    "description_html": "Smart lights are fun, but have you ever wondered how it works under the hood, when you say to your Google Home something like: \"OK Google, turn on the lights\"?<br>Could we just buy some colored LED bulbs for $10, and create our own home automation system, compatible with the Google Assistant?<br>That's what we will see today, first doing some slight reverse-engineering to understand how those light bulbs work, and then creating an Android Things and an Actions on Google project to control those.<br>This talk is a way to discover \"Actions on Google\", \"Google Cloud Functions\", \"Firebase Cloud Firestore\" and \"Android Things\"",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-gautier-mechling']
+                },
+                "talk-crafting-expo": { //29
+                    "title": "Crafting cross-platform native apps using Expo",
+                    "description_html": "I'd like to show what Expo is and how it helps in building cross-platform apps with native feeling.",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-tomasz-sapeta']
+                },
+                "talk-testing-kotlin": { //30
+                    "title": "Testing with Kotlin",
+                    "description_html": "Everyone agrees, that testing our code is essential for development. Yet, creating clean and readable tests is not a piece of cake.<br>We put a lot of effort in keeping our codebase in a good shape. But let's be honest - most of testing frameworks aren't modern, friendly tools. That's where Kotlin and it’s ecosystem comes to help. Data and behavior driven testing combined with specifications can give you more freedom - I will show how to apply those strategies to everyday development.<br>Besides of general ideas, I will discuss Kotlin and Android testing frameworks. You will also learn how we managed to tailor testing patterns for specific problems.<br>I hope that after my talk you will have bunch of ideas to be more productive while writing tests.",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-jaroslaw-michalik']
+                },
+                "talk-grumpy-man": { //31
+                    "title": "Code Quality on Android - A grumpy old man's perspective",
+                    "description_html": "In this talk Raul describes the approach they have taken at OneView to improve code quality: CICD, Static code analysis, Unit test, testing Android code efficiently, libraries and architectural approach.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-raul-portales']
+                },          
+                "talk-ios-debugging": { //32
+                    "title": "Take your iOS debugging skills to the next level",
+                    "description_html": "Debugging is an essential, but complex part of app development. No wonder iOS developers have come up with tools that make this process less daunting. By applying a few tricks from our talk, you will be able to speed up debugging on all layers, from networking to the UI. This in turn will reduce the time you need to ship your product.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-ewa-ludwiczak', 'speaker-henryk-ratajczak']
+                },
             },
             breaks: {
                 'break-registration': {
