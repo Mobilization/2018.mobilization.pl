@@ -630,12 +630,24 @@ docpadConfig = {
                     "www" : "http://plattysoft.com",
                     "linkedin" : "https://www.linkedin.com/in/raulportales",
                     "photo_url": speakersImgBaseUrl + "raul-portales.png"
+                },
+                "speaker-ewa-ludwiczak": {//32
+                    "firstname": "Ewa",
+                    "lastname": "Ludwiczak",
+                    "bio_html" : "Ewa is software test engineer focused on mobile iOS app testing and development. She works in one of agile teams at Allegro Group for already 5 years now. She systematically shares knowledge at meetups and conferences and actively supports the idea of teaching kids how to code.",
+                    "twitter": "https://twitter.com/ewabielskapoz",
+                    "linkedin" : "https://www.linkedin.com/in/ewa-ludwiczak-25268b54/",
+                    "photo_url": speakersImgBaseUrl + "ewa-ludwiczak.png"
+                },
+                "speaker-henryk-ratajczak": {//32.5
+                    "firstname": "Henryk",
+                    "lastname": "Ratajczak",
+                    "bio_html" : "Henryk Ratajczak is an iOS developer with a diverse background. Having learned his chops in a dynamic software house, he went through a freelancing episode to finally join a mobile team of 20 engineers at Allegro. As an programmer, he’s focused on maintaining a properly formatted codebase as well as delivering a product that is always up to scratch with accessibility guidelines.",
+                    "linkedin" : "https://www.linkedin.com/in/hjratajczak/ ",
+                    "photo_url": speakersImgBaseUrl + "henryk-ratajczak.png"
                 },              
             },
             talks: {
-                /**
-                UI profiling in examples. Where is my bottleneck?   ""
-*/
                 "talk-tbd": {
                     "title": "TBD",
                     "description_html": "TBD",
@@ -768,8 +780,6 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-marcin-krzyzanowski']
                 },
-                    
-   
             },
             breaks: {
                 'break-registration': {
