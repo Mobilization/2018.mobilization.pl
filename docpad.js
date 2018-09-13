@@ -888,6 +888,13 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-ewa-ludwiczak', 'speaker-henryk-ratajczak']
                 },
+                "talk-animations-gestures": { //33
+                    "title": "Animations and gesture handling in React Native and native languages",
+                    "description_html": "Gestures and animations are a very extensive subjects where advanced development meets very highUX requirements and these meetings seems to be difficult.<br>During this talk I wish to show two libraries which solve this problem in React Native. In addition I'd like to raise a subject of gesture handling in 'native' developments and consistence of whole gesture system on mobile platforms. What's more, I'm going to present some related experiments.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-michal-osadnik']
+                },
             },
             breaks: {
                 'break-registration': {
