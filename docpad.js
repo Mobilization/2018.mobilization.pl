@@ -160,7 +160,7 @@ docpadConfig = {
                     {
                         name: 'Java User Group Łódź',
                         logo_url: partnersImgBaseUrl + 'juglodz.jpeg',
-                        "link" : "https://www.juglodz.pl",
+                        "link" : "http://www.juglodz.pl",
                         description_html: 'Łódź JUG is an association of Java developers, architects and enthusiasts of Java technology from Łódź, the city in the centre of Poland. The aim of the association is to promote exchange of knowledge and competence growth among Java professionals in the Łódź area. The main activity towards this goal is organisation of IT-related seminars and meetings that usually involve a presentation about chosen topic and then follow-up discussion. LJUG cooperates with other JUGs in Poland, like Polish JUG and Warsaw JUG. We encourage everyone interested in Java technologies to join and start participating in our expertise-sharing activities! Java User Group Łódź is main organizer of Mobilization event since 2011'
                     }
                 ],
