@@ -36,7 +36,7 @@ jQuery(function($) {
                 });
                 var marker = tomtom.L.marker([51.750632, 19.450548], {
 
-                }).bindPopup('Lodz International Fairs (Nowa Hala Expo) <img src="http://expo-lodz.pl/assets/gallery/C5D-7927.jpg" width="150" /> ').addTo(map);
+                }).bindPopup('EXPO-Łódź<br>Al. Politechniki 4<br>93-590 Łódź<br><img src="http://expo-lodz.pl/assets/gallery/C5D-7927.jpg" width="150" /> ').addTo(map);
 	}
 
 	/* ----------------------------------------------------------- */
