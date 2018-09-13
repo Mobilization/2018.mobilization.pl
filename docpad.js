@@ -643,8 +643,18 @@ docpadConfig = {
                     "firstname": "Henryk",
                     "lastname": "Ratajczak",
                     "bio_html" : "Henryk Ratajczak is an iOS developer with a diverse background. Having learned his chops in a dynamic software house, he went through a freelancing episode to finally join a mobile team of 20 engineers at Allegro. As an programmer, he’s focused on maintaining a properly formatted codebase as well as delivering a product that is always up to scratch with accessibility guidelines.",
-                    "linkedin" : "https://www.linkedin.com/in/hjratajczak/ ",
+                    "linkedin" : "https://www.linkedin.com/in/hjratajczak/",
                     "photo_url": speakersImgBaseUrl + "henryk-ratajczak.png"
+                },
+                "speaker-michal-osadnik": {//33
+                    "firstname": "Michał",
+                    "lastname": "Osadnik",
+                    "bio_html" : "A Software Mansioner who spent last year on developing mobile apps in react-native and contributed into react-native-gesture-handler and react-native-reanimated. \nRides a bike, plays guitar, loves literature and poetry from 19th & beginning of 20th centuries as well as theoretical computer science. Creative and energetic. Knows how to tame mobile devices (both iOS and Android). He gets satisfaction from making things work and discovering how they work.",
+                    "linkedin" : "https://www.linkedin.com/in/micha%C5%82-osadnik-%F0%9F%99%86-01a651138/",
+                    "github" : "https://github.com/osdnk",
+                    "witter" : "https://twitter.com/mosdnk",
+                    "www" : "https://osdnk.github.io",
+                    "photo_url": speakersImgBaseUrl + "michal-osadnik.png"
                 },              
             },
             talks: {
