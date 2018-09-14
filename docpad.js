@@ -655,7 +655,17 @@ docpadConfig = {
                     "witter" : "https://twitter.com/mosdnk",
                     "www" : "https://osdnk.github.io",
                     "photo_url": speakersImgBaseUrl + "michal-osadnik.png"
-                },              
+                },
+                "speaker-salomon-brys": {//34
+                    "firstname": "Salomon",
+                    "lastname": "Brys",
+                    "bio_html" : "Kotlin passionate, Salomon is the creator of the Kodein Framework & the Kodein Koders company.",
+                    "linkedin" : "https://www.linkedin.com/in/salomonbrys/",
+                    "github" : "https://github.com/salomonbrys",
+                    "witter" : "https://twitter.com/salomonbrys",
+                    "www" : "http://kodein.net",
+                    "photo_url": speakersImgBaseUrl + "salomon-brys.png"
+                }              
             },
             talks: {
                 "talk-tbd": {
@@ -778,7 +788,7 @@ docpadConfig = {
                 },
                 "talk-flutter-sdk": { //16
                     "title": "Why is Flutter the mobile SDK developers deserve, but the also the one that they need right now?",
-                    "description_html": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS by coding just once in Dart and deploying to both of these platforms. Flutter makes it so easy to build mobile apps without impacting the app’s performance. The app it produces is a treat for the eyes as everything is drawn right on the screen, pixel perfect!<br>“Why do I need this when I already have React Native?”. I got that covered in this talk for you along with the following takeaways:<br>Why coding twice is not productive anymore?<br>A brief about how Flutter came into existence<br>Flutter’s ability to keep the same performance as the native app<br>Comparison with React Native and other dual platform frameworks<br>Best resources to get started with Flutter<br>Fun Fact: Flutter was meant to use JS at first, but the team eventually decided to go with Dart. I’ll talk about this as well.<br>By the end of this talk, you will be itching to write your first app in Flutter!",
+                    "description_html": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS by coding just once in Dart and deploying to both of these platforms. Flutter makes it so easy to build mobile apps without impacting the app’s performance. The app it produces is a treat for the eyes as everything is drawn right on the screen, pixel perfect!<br>“Why do I need this when I already have React Native?”. I got that covered in this talk for you along with the following takeaways:<br>Why coding twice is not productive anymore?<br>A brief about how Flutter came into existence<br>Flutter’s ability to keep the same performance as the native app<br>Comparison with React Native and other dual platform frameworks<br>Best resources to get started with Flutter<br>Fun Fact: Flutter was meant to use JS at first, but the team eventually decided to go with Dart. I’ll talk about this as well.<br>By the end of this talk, you will be itching to write your first app in Flutter!<br>Get ready for some engaging questions and punny one-liners ready that would make you want to not miss a second of this talk.",
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-rohan-taneja']
@@ -894,6 +904,13 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-michal-osadnik']
+                },
+                "talk-kotlin-mobile": { //34
+                    "title": "Kotlin for Android, iOS & the mobile web",
+                    "description_html": "Kotlin is an official language for Android development, but did you know you can use the Kotlin language to compile for iOS via LLVM as well as for the web via JS ?<br>In this talk, I will show how to create a mobile application that runs on Android, on iOS and on the web while remaining true to each platform.<br>We will see how to organize your code to share your business logic between platforms while keeping the presentation specific to each of them.<br>Finally, we will discuss the current state of Kotlin multi-platform, as well as its future.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-salomon-brys']
                 },
             },
             breaks: {
