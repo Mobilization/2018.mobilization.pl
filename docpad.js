@@ -751,6 +751,20 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-piotr-wittchen']
                 },
+                "talk-app-connected": { //9
+                    "title": "Is your app really connected?",
+                    "description_html": "Today, almost every Android app communicates with a remote server through a provided API. We often forget that mobile applications can work offline. Moreover, network can be down or not connected to the Internet. We may also want to synchronize our data through the WiFi, but not through the mobile data transfer to save user's money. What to do, when connection is lost and someone is using an application at the same time? How can we keep the track of network or Internet connectivity changes in our app? How to deal with this problem across all recent Android versions? How to write an application, which is network aware and optimized to reduce power consumption? If you want to know answers to these questions and get rid of endlessly rolling spinners in your app, then this talk is for you.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-piotr-wittchen']
+                },
+                "talk-superpowers-delegation": { //10
+                    "title": "Superpowers of Kotlin Delegation",
+                    "description_html": "Property delegation is pretty new feature in the programming world and most developers use only small amount of possibilities it provides. On the other hand, class delegation is known for decades and it was promoted by big authorities. All it needed was language support, which was introduced in Kotlin. On this session, we are going to dive into possibilities that Kotlin delegation gives. Let's discover this features and understand its superpowers.",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-marcin-moskala']
+                },
                 "talk-machine-learning": { //11
                     "title": "From TensorFlow to ML Kit: power your mobile application with machine learning",
                     "description_html": "As a mobile app developer, you probably have noticed Google's active efforts on bringing their machine learning expertise to mobile development. From TensorFlow's earliest mobile app demo to TensorFlow Lite and Android Neural Networks API, we are witnessing how latest research (e.g. MobileNet) drastically reduced machine learning model size and CPU / memory consumption on mobile devices. This year, with the beta release of ML Kit, we now have another powerful toolbox to leverage machine learning in the mobile application development.<br>This talk features a side project Magritte, an educational application that helps people learn foreign languages. It's sort of like Duolingo but with eyes, the application recognizes daily objects using custom machine learning models embedded on device and speaks the vocabulary out loud with the chosen language. By presenting the Magritte app, the talk will reveal how the models for TensorFlow mobile were initially trained and optimized, how the performance was improved with TensorFlow Lite and MobileNets models, and eventually the ongoing migration towards ML Kit.",
