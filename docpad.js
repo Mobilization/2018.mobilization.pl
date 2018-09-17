@@ -665,7 +665,17 @@ docpadConfig = {
                     "witter" : "https://twitter.com/salomonbrys",
                     "www" : "http://kodein.net",
                     "photo_url": speakersImgBaseUrl + "salomon-brys.png"
-                }              
+                },
+                "speaker-dylan-drost": {//35
+                    "firstname": "Dylan",
+                    "lastname": "Drost",
+                    "bio_html" : "Android Developer at Snappcar working on a platform to share and rent cars. As the resident geek at home I do the occasional web development/server admin for https://bettyskitchen.nl a food blog which is run by my wife with over a 1000 post and around 90/100k visitors per month.",
+                    "linkedin" : "https://www.linkedin.com/in/dylandrost/",
+                    "github" : "https://github.com/aegis123",
+                    "witter" : "https://twitter.com/aegis321",
+                    "www" : "https://bettyskitchen.nl",
+                    "photo_url": speakersImgBaseUrl + "dylan-drost.png"
+                }
             },
             talks: {
                 "talk-tbd": {
@@ -925,6 +935,13 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-salomon-brys']
+                },
+                "talk-darth-flutter": { //35
+                    "title": "Dart: I'm your Flutter",
+                    "description_html": "Is Flutter the next big thing in developing multi platform apps with a single codebase. Google seems to think so. So lets try this out by making a Star wars movies app. And see if we can make that run on both Android and IOS by using the Flutter Framework.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-dylan-drost']
                 },
             },
             breaks: {

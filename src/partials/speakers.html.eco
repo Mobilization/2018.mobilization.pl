@@ -41,7 +41,7 @@
 									<% for talk_key, talk of @site.talks: %>
 										<% if speaker_key in talk.speakers_keys: %>
 											<% speaker_talk_keys.push(talk_key) %>
-											<span><small>Talk:</small><br/><a style="cursor: pointer" onclick="javascript:go_to_hash('<%= talk_key %>')" data-dismiss="modal"><strong><%= talk.title %></strong></a></span>
+											<span><small>Talk:</small><br/><a href="#<%= talk_key %>" data-dismiss="modal"><strong><%= talk.title %></strong></a></span>
 										<% end %>
 									<% end %>
 								</div>
