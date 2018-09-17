@@ -936,7 +936,7 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-salomon-brys']
                 },
-                "talk-darth-flutter": { //35
+                "talk-dart-flutter": { //35
                     "title": "Dart: I'm your Flutter",
                     "description_html": "Is Flutter the next big thing in developing multi platform apps with a single codebase. Google seems to think so. So lets try this out by making a Star wars movies app. And see if we can make that run on both Android and IOS by using the Flutter Framework.",
                     "audience_level": "Intermediate",
