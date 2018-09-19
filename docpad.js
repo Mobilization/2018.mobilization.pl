@@ -652,7 +652,7 @@ docpadConfig = {
                     "bio_html" : "A Software Mansioner who spent last year on developing mobile apps in react-native and contributed into react-native-gesture-handler and react-native-reanimated. \nRides a bike, plays guitar, loves literature and poetry from 19th & beginning of 20th centuries as well as theoretical computer science. Creative and energetic. Knows how to tame mobile devices (both iOS and Android). He gets satisfaction from making things work and discovering how they work.",
                     "linkedin" : "https://www.linkedin.com/in/micha%C5%82-osadnik-%F0%9F%99%86-01a651138/",
                     "github" : "https://github.com/osdnk",
-                    "witter" : "https://twitter.com/mosdnk",
+                    "twitter" : "https://twitter.com/mosdnk",
                     "www" : "https://osdnk.github.io",
                     "photo_url": speakersImgBaseUrl + "michal-osadnik.png"
                 },
@@ -662,7 +662,7 @@ docpadConfig = {
                     "bio_html" : "Kotlin passionate, Salomon is the creator of the Kodein Framework & the Kodein Koders company.",
                     "linkedin" : "https://www.linkedin.com/in/salomonbrys/",
                     "github" : "https://github.com/salomonbrys",
-                    "witter" : "https://twitter.com/salomonbrys",
+                    "twitter" : "https://twitter.com/salomonbrys",
                     "www" : "http://kodein.net",
                     "photo_url": speakersImgBaseUrl + "salomon-brys.png"
                 },
@@ -672,9 +672,18 @@ docpadConfig = {
                     "bio_html" : "Android Developer at Snappcar working on a platform to share and rent cars. As the resident geek at home I do the occasional web development/server admin for https://bettyskitchen.nl a food blog which is run by my wife with over a 1000 post and around 90/100k visitors per month.",
                     "linkedin" : "https://www.linkedin.com/in/dylandrost/",
                     "github" : "https://github.com/aegis123",
-                    "witter" : "https://twitter.com/aegis321",
+                    "twitter" : "https://twitter.com/aegis321",
                     "www" : "https://bettyskitchen.nl",
                     "photo_url": speakersImgBaseUrl + "dylan-drost.png"
+                },
+                "speaker-heiko-schilling": {//35
+                    "firstname": "Heiko",
+                    "lastname": "Schilling",
+                    "bio_html" : "Heiko Schilling started out as a mathematician and computer scientist with a focus on software innovation throughout his whole career. From 1989 onwards, Heiko successfully completed 4 academic degrees while running his own businesses or working for large corporations. He joined TomTom 11 years ago, reporting into Management Board. In his current role, he is responsible for TomTom’s Product Unit Navigation that delivers the software components and services for all of TomTom's navigation products – serving more than 100 million navigation users world-wide with their mobility needs.",
+                    "linkedin" : "https://www.linkedin.com/in/heikoschilling/",
+                    "twitter" : "https://twitter.com/heikoschilling",
+                    "facebook" : "https://www.facebook.com/heiko.schilling.395",
+                    "photo_url": speakersImgBaseUrl + "heiko-schilling.png"
                 }
             },
             talks: {
@@ -942,6 +951,13 @@ docpadConfig = {
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-dylan-drost']
+                },
+                "talk-technology-moving": { //36
+                    "title": "Technology for a Moving World",
+                    "description_html": "TomTom builds technology for a moving world. We help drivers – human or computer – to safely drive the 1.2 billion cars in the world. Every day, moving goods or people from A to B. TomTom started 1984 with mapping the world for navigation applications that help drivers finding their way from A to B and so we eliminated the need for paper maps. Later, in 2006, we developed global traffic services and connected navigation applications for drivers to outsmart traffic congestion altogether. Currently, we help drivers navigating their electric vehicles, making sure they do not run out of battery and so we fight range anxiety. Going forward, we already enabling automated vehicles to see beyond its physical sensors by remapping the world in centimeter accuracy and building applications that assist people’s drive or even drive a car all on their own – more safely and more efficient as human drivers.",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-heiko-schilling']
                 },
             },
             breaks: {
