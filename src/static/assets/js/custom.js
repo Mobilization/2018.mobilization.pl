@@ -1,3 +1,31 @@
+function go_to_hash(hash) {
+    // $('#agenda-venues > li').removeClass("active");
+    // $('.agenda-venues-tab').removeClass("in active");
+
+    // var tagSelector = '#' + hash;
+    // var tabId = $(tagSelector).closest('.tab-pane').attr('id');
+    // if (!tabId) {
+    //     select_first_tab();
+    //     return;
+    // }
+
+    // var menuId = tabId.substr(5);
+
+    // var menuSelectorId = '#menu-selector-' + menuId;
+    // var menuTabId = '#menu-' + menuId;
+
+    // $(menuSelectorId).addClass("active");
+    // $(menuTabId).addClass("in active");
+
+    $('html, body').animate({
+        scrollTop: $('#' + hash).offset().top - 80
+    }, 500)
+}
+
+function select_first_tab() {
+    $('#agenda-venues > li').first().addClass("active");
+    $('.agenda-venues-tab').first().addClass("in active");
+}
 
 jQuery(function($) {
   "use strict";
