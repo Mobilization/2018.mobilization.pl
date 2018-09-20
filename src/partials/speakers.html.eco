@@ -12,13 +12,15 @@
 		<% speaker = @site.speakers[speaker_key]; ++i; %>
 			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="ts-speaker">
-					<div class="ts-speaker-image">
-						<img class="img-responsive" src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"/>
-					</div>
-					<div class="ts-speaker-info">
-						<h3 class="ts-speaker-name"><a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>"><%= speaker.firstname %> <%= speaker.lastname %></a></h3>
-						<p class="ts-speaker-designation"><%= speaker.job_title %></p>
-					</div>
+					<a data-toggle="modal" href="#speaker-more-info-<%= speaker_key %>">
+						<div class="ts-speaker-image">
+							<img class="img-responsive" src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"/>
+						</div>
+						<div class="ts-speaker-info">
+							<h3 class="ts-speaker-name"><%= speaker.firstname %> <%= speaker.lastname %></h3>
+							<p class="ts-speaker-designation"><%= speaker.job_title %></p>
+						</div>
+					</a>
 				</div>
 			</div>
 			<!-- Modal -->
