@@ -1191,6 +1191,24 @@ docpadConfig = {
             }
             return "";
         },
+        getOrderedTalkKeys: function () {
+            var talks = this.site.talks;
+            var items = Object.keys(talks).map(function (key) {
+                return [key, talks[key]];
+            });
+
+            items.sort(function (a, b) {
+                if (a[1].title < b[1].title)
+                    return -1;
+                if (a[1].title > b[1].title)
+                    return 1;
+                return 0;
+            });
+
+            return items.map(function (value) {
+                return value[0];
+            });
+        },
         getOrderedSpeakersKeys: function () {
             var speakers = this.site.speakers;
             var items = Object.keys(speakers).map(function (key) {
