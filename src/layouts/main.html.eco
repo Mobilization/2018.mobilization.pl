@@ -12,9 +12,15 @@
 <!-- Site Title -->
 <title>Mobilization VIII</title>
 
-<!--Favicon-->
+<!-- Favicon -->
 <link rel="shortcut icon" href="assets/mobilization/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="assets/mobilization/images/favicon.ico" type="image/x-icon">
+
+<!-- FB IMAGE -->
+<meta property="og:image" content="https://2018.mobilization.pl/assets/mobilization/images/mobilization-logo-1.png" />
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
 
 <!-- CSS
 ================================================== -->
