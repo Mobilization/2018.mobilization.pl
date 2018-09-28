@@ -840,7 +840,7 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-paul-hudson']
                 },
-                "talk-tricky-stufff": { //20
+                "talk-tricky-stuff": { //20
                     "title": "Testing the Tricky Stuff",
                     "description_html": "Tutorials all over the internet explain how to setup tests and write simpler ones, but what about in a real app where things aren't so straightforward?",
                     "audience_level": "Intermediate",
