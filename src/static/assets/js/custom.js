@@ -1,35 +1,36 @@
-function go_to_hash(hash) {
-    // $('#agenda-venues > li').removeClass("active");
-    // $('.agenda-venues-tab').removeClass("in active");
-
-    // var tagSelector = '#' + hash;
-    // var tabId = $(tagSelector).closest('.tab-pane').attr('id');
-    // if (!tabId) {
-    //     select_first_tab();
-    //     return;
-    // }
-
-    // var menuId = tabId.substr(5);
-
-    // var menuSelectorId = '#menu-selector-' + menuId;
-    // var menuTabId = '#menu-' + menuId;
-
-    // $(menuSelectorId).addClass("active");
-    // $(menuTabId).addClass("in active");
-
-    $('html, body').animate({
-        scrollTop: $('#' + hash).offset().top - 80
-    }, 500)
+function select_first_tab() {
+	$('.tab-pane').first().addClass("active");
+	$('.nav-tabs li').first().addClass("active");
 }
 
-function select_first_tab() {
-    $('#agenda-venues > li').first().addClass("active");
-    $('.agenda-venues-tab').first().addClass("in active");
+function go_to_hash(hash) {
+	$('.tab-pane').removeClass("active");
+	$('.nav-tabs li').removeClass("active");
+
+    var tagSelector = '#' + hash;
+    var tabId = $(tagSelector).closest('.tab-pane').attr('id');
+    if (!tabId) {
+        select_first_tab();
+        return;
+    }
+
+    var menuId = tabId.substr(5);
+
+    var menuSelectorId = '#menu-selector-' + menuId;
+    var menuTabId = '#menu-' + menuId;
+
+    $(menuSelectorId).addClass("active");
+    $(menuTabId).addClass("active");
+
+    $('html, body').animate({
+        scrollTop: $('#' + hash).offset().top - 4
+    }, 500)
 }
 
 jQuery(function($) {
   "use strict";
 
+  select_first_tab();
 
 	/* ----------------------------------------------------------- */
 	/*  Mobile Menu
@@ -89,52 +90,6 @@ jQuery(function($) {
 		 delay: 10,
 		 time: 1000
 		});
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  Contact form
-	/* ----------------------------------------------------------- */
-
-	$('#contact-form').submit(function(){
-
-		var $form = $(this),
-			$error = $form.find('.error-container'),
-			action  = $form.attr('action');
-
-		$error.slideUp(750, function() {
-			$error.hide();
-
-			var $name = $form.find('.form-control-name'),
-				$email = $form.find('.form-control-email'),
-				$subject = $form.find('.form-control-subject'),
-				$message = $form.find('.form-control-message');
-
-			$.post(action, {
-					name: $name.val(),
-					email: $email.val(),
-					subject: $subject.val(),
-					message: $message.val()
-				},
-				function(data){
-					$error.html(data);
-					$error.slideDown('slow');
-
-					if (data.match('success') != null) {
-						$name.val('');
-						$email.val('');
-						$subject.val('');
-						$message.val('');
-					}
-				}
-			);
-
-		});
-
-		return false;
-
-	});
-
 
 	/* ----------------------------------------------------------- */
 	/*  Back to top

@@ -1184,10 +1184,10 @@ docpadConfig = {
         },
         getHtmlLangImg: function (_talk) {
             if (_talk.language == "EN") {
-                return "<img src=\"/assets/img/page/lang_en.png\" alt=\"English\" class=\"language\" />";
+                return "<img src=\"/assets/mobilization/images/lang_en.png\" alt=\"English\" class=\"language\" />";
             }
             if (_talk.language == "PL") {
-                return "<img src=\"/assets/img/page/lang_pl.png\" alt=\"Polish\" class=\"language\" />";
+                return "<img src=\"/assets/mobilization/images/lang_pl.png\" alt=\"Polish\" class=\"language\" />";
             }
             return "";
         },
