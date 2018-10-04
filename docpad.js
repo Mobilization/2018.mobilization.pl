@@ -676,7 +676,7 @@ docpadConfig = {
                     "www" : "https://bettyskitchen.nl",
                     "photo_url": speakersImgBaseUrl + "dylan-drost.png"
                 },
-                "speaker-heiko-schilling": {//35
+                "speaker-heiko-schilling": {//36
                     "firstname": "Heiko",
                     "lastname": "Schilling",
                     "bio_html" : "Heiko Schilling started out as a mathematician and computer scientist with a focus on software innovation throughout his whole career. From 1989 onwards, Heiko successfully completed 4 academic degrees while running his own businesses or working for large corporations. He joined TomTom 11 years ago, reporting into Management Board. In his current role, he is responsible for TomTom’s Product Unit Navigation that delivers the software components and services for all of TomTom's navigation products – serving more than 100 million navigation users world-wide with their mobility needs.",
@@ -684,6 +684,12 @@ docpadConfig = {
                     "twitter" : "https://twitter.com/heikoschilling",
                     "facebook" : "https://www.facebook.com/heiko.schilling.395",
                     "photo_url": speakersImgBaseUrl + "heiko-schilling.png"
+                },
+                "speaker-przemyslaw-pyznarski": {//37
+                    "firstname": "Przemysław",
+                    "lastname": "Pyznarski",
+                    "bio_html" : "Official job position: tech leader at IDEMIA R&D. What he does, is his passion. That's the main reason why he usually calls himself a mobile enthusiast. He has been surfing mobile tech world for more than 7 year of his career. Currently responsible for delivering top natch mobile solutions leveraging biometric security features and standards. As it is a very strong R&D and fast evolving domain, the smile never goes off his face.",
+                    "photo_url": speakersImgBaseUrl + "przemyslaw-pyznarski.png"
                 }
             },
             talks: {
