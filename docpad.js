@@ -965,6 +965,13 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-heiko-schilling']
                 },
+                "talk-7th-continent": { //37
+                    "title": "Your passport to the 7th continent",
+                    "description_html": "We are going to dive deep into biometric and virtual identity world.<br>This presentation will be full of catchy phrases like: liveness detection, face recognition software,<br>and document digitalization. We will talk about the biggest challenges which they bring to the table from both<br>engineering and customer perspective.<br>All above just to find an answer to a really simple question:<br>are mobile devices ready to be used as a passport to the 7th continent`?",
+                    "audience_level": "Beginner",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-przemyslaw-pyznarski']
+                },
             },
             breaks: {
                 'break-registration': {
