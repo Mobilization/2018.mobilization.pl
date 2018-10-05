@@ -967,7 +967,7 @@ docpadConfig = {
                 },
                 "talk-7th-continent": { //37
                     "title": "Your passport to the 7th continent",
-                    "description_html": "We are going to dive deep into biometric and virtual identity world.<br>This presentation will be full of catchy phrases like: liveness detection, face recognition software,<br>and document digitalization. We will talk about the biggest challenges which they bring to the table from both<br>engineering and customer perspective.<br>All above just to find an answer to a really simple question:<br>are mobile devices ready to be used as a passport to the 7th continent`?",
+                    "description_html": "The goal of this presentation is to introduce to you the current biometric techniques and review those of them, which are applicable or are already present in the mobile world.  We will look under the hood of the most popular use cases and discuss the challenges and the obstacles, which lies ahead of them, both from users and engineer’s perspective.<br>We will try to prove, that whenever you hear phrase \"Enter your PIN code\", you have full right to feel like someone who is living in middle age instead of 21st century. <br>All above just to answer simple question: Is mobile device ready to be our passport to the 7th continent?",
                     "audience_level": "Beginner",
                     "language": "EN",
                     "speakers_keys": ['speaker-przemyslaw-pyznarski']
@@ -1029,9 +1029,18 @@ docpadConfig = {
                 },
                 "slot-no-coffee-0": {"break_key": "break-no-coffee"},
                 "slot-1": {
+                    "venue-idemia" : {
+                        "talk_key" : "talk-7th-continent"
+                    },
+                    "venue-harman" : {
+                        "talk_key" : "talk-app-connected"
+                    }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
+                    "venue-tomtom" : {
+                        "talk_key" : "talk-technology-moving"
+                    }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
                 "slot-3": {
