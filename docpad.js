@@ -1069,7 +1069,7 @@ docpadConfig = {
                         "talk_key" : "talk-callbacks-hell"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-eschew-convention"
+                        "talk_key" : "talk-flutter-sdk"
                     },
                     "venue-harman" : {
                         "talk_key" : "talk-kotlin-quality"
