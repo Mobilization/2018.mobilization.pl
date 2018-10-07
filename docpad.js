@@ -1052,7 +1052,7 @@ docpadConfig = {
                         "talk_key" : "talk-technology-moving"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-offline-challenges"
+                        "talk_key" : "talk-animations-gestures"
                     },
                     "venue-harman" : {
                         "talk_key" : "talk-splitting-monolithic"
@@ -1121,10 +1121,10 @@ docpadConfig = {
                 "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-6": {
                     "venue-tomtom" : {
-                        "talk_key" : "talk-ios-debugging"
+                        "talk_key" : "talk-offline-challenges"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-animations-gestures"
+                        "talk_key" : "talk-ios-debugging"
                     },
                     "venue-harman" : {
                         "talk_key" : "talk-crypt-ography"
