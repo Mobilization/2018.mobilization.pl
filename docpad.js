@@ -697,7 +697,8 @@ docpadConfig = {
                     "title": "TBD",
                     "description_html": "TBD",
                     "speakers_keys": [],
-                    "language": "EN"
+                    "language": "EN",
+                    "audience_level" : "Beginner"
                 },
 				"talk-finally": {
                     "title": "Finally meeting",
@@ -1036,7 +1037,7 @@ docpadConfig = {
                         "talk_key" : "talk-tbd"
                     },
                     "venue-harman" : {
-                        "talk_key" : "talk-app-connected"
+                        "talk_key" : "talk-connected-cars"
                     },
                     "venue-idemia" : {
                         "talk_key" : "talk-7th-continent"
