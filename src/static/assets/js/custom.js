@@ -11,6 +11,7 @@ function go_to_hash(hash) {
     var tabId = $(tagSelector).closest('.tab-pane').attr('id');
     if (!tabId) {
         select_first_tab();
+        animate(hash)
         return;
     }
 
@@ -22,6 +23,10 @@ function go_to_hash(hash) {
     $(menuSelectorId).addClass("active");
     $(menuTabId).addClass("active");
 
+    animate(hash)
+}
+
+function animate(hash) {
     $('html, body').animate({
         scrollTop: $('#' + hash).offset().top - 4
     }, 500)
