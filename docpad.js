@@ -27,7 +27,7 @@ docpadConfig = {
                 "call_for_papers": false,
                 "registration": true,
                 "talks": true,
-                "agenda": false,
+                "agenda": true,
                 "speakers": true,
                 "sponsors": true,
                 "partners": true
@@ -1044,16 +1044,16 @@ docpadConfig = {
                         "talk_key" : "talk-technology-moving"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-animations-gestures"
-                    },
-                    "venue-harman" : {
-                        "talk_key" : "talk-splitting-monolithic"
-                    },
-                    "venue-idemia" : {
                         "talk_key" : "talk-rust-sharing"
                     },
+                    "venue-harman" : {
+                        "talk_key" : "talk-idealistic-apps"
+                    },
+                    "venue-idemia" : {
+                        "talk_key" : "talk-app-connected"
+                    },
                     "venue-mobica" : {
-                        "talk_key" : "talk-tbd"
+                        "talk_key" : "talk-animations-gestures"
                     }
                 },
                 "slot-coffee-2": {"break_key": "break-coffee"},
@@ -1089,43 +1089,43 @@ docpadConfig = {
                         "talk_key" : "talk-hands-coordinators"
                     },
                     "venue-mobica" : {
-                        "talk_key" : "talk-tensorflow-mlkit"
+                        "talk_key" : "talk-tbd"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
                 "slot-5": {
                     "venue-tomtom" : {
-                        "talk_key" : "talk-machine-learning"
+                        "talk_key" : "talk-offline-challenges"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-crafting-expo"
-                    },
-                    "venue-harman" : {
                         "talk_key" : "talk-superpowers-delegation"
                     },
-                    "venue-idemia" : {
+                    "venue-harman" : {
                         "talk_key" : "talk-ios-performance"
                     },
+                    "venue-idemia" : {
+                        "talk_key" : "talk-crafting-expo"
+                    },
                     "venue-mobica" : {
-                        "talk_key" : "talk-koin-android"
+                        "talk_key" : "talk-tensorflow-mlkit"
                     }
                 },
                 "slot-coffee-5": {"break_key": "break-coffee"},
                 "slot-6": {
                     "venue-tomtom" : {
-                        "talk_key" : "talk-offline-challenges"
+                        "talk_key" : "talk-machine-learning"
                     },
                     "venue-glase" : {
                         "talk_key" : "talk-ios-debugging"
                     },
                     "venue-harman" : {
-                        "talk_key" : "talk-crypt-ography"
-                    },
-                    "venue-idemia" : {
                         "talk_key" : "talk-green-rocket"
                     },
+                    "venue-idemia" : {
+                        "talk_key" : "talk-crypt-ography"
+                    },
                     "venue-mobica" : {
-                        "talk_key" : "talk-home-automation"
+                        "talk_key" : "talk-koin-android"
                     }
                 },
                 "slot-coffee-6": {"break_key": "break-coffee"},
@@ -1152,16 +1152,16 @@ docpadConfig = {
                         "talk_key" : "talk-less-code"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-kotlin-arrow"
+                        "talk_key" : "talk-splitting-monolithic"
                     },
                     "venue-harman" : {
-                        "talk_key" : "talk-app-connected"
-                    },
-                    "venue-idemia" : {
                         "talk_key" : "talk-kotlin-mobile"
                     },
+                    "venue-idemia" : {
+                        "talk_key" : "talk-kotlin-arrow"
+                    },
                     "venue-mobica" : {
-                        "talk_key" : "talk-idealistic-apps"
+                        "talk_key" : "talk-home-automation"
                     }
                 },
                 "slot-no-coffee-8": {"break_key": "break-no-coffee"},
