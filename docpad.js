@@ -83,15 +83,15 @@ docpadConfig = {
                     "link" : "https://allegro.tech/"
                 },
                 {
-                    "name" : "Fujitsu",
-                    "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
-                    "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
-                },
-                {
                     "name" : "Comarch",
                     "logo_url" : sponsorsImgBaseUrl + "comarch-square.png",
                     "link" : "https://www.comarch.pl/"
-                }                                              
+                },
+                {
+                    "name" : "Fujitsu",
+                    "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
+                    "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
+                },                                           
                 ],
                 silver: [
                 {
