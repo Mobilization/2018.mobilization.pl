@@ -992,8 +992,8 @@ docpadConfig = {
                 //     description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
                 // },
                 'break-afterparty': {
-                    title: 'AfterParty in All Star Klubokawiarnia',
-                    description_html: 'Free pizza and beer and follow up talks.<br>15min from conference venue.<br>Piotrkowska 217 Łódź'
+                    title: 'AfterParty in Browar Księży Młyn',
+                    description_html: 'Free pizza and beer and follow up talks.<br>30min from the conference venue.<br>ul. Tymienieckiego 22/24, Łódź'
                 }
             },
             venues: {
