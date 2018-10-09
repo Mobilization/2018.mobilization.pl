@@ -88,18 +88,10 @@ docpadConfig = {
                     "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
                 },
                 {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                },
-                {
-                    "name" : "Reserved",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-reserved.png",
-                },
-                {
-                    "name" : "Free",
-                    "logo_url" : sponsorsImgBaseUrl + "mobilization-free.png",
-                    "link" : "mailto:sponsors@mobilization.pl?subject=Sponsorship%20packages&body=I%20am%20nterested%20in%20the%20sponsorship%20offer%20for%20Mobilization+2018."
-                },                                                
+                    "name" : "Comarch",
+                    "logo_url" : sponsorsImgBaseUrl + "comarch-square.png",
+                    "link" : "https://www.comarch.pl/"
+                }                                              
                 ],
                 silver: [
                 {
