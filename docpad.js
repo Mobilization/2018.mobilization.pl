@@ -91,7 +91,7 @@ docpadConfig = {
                     "name" : "Fujitsu",
                     "logo_url" : sponsorsImgBaseUrl + "fujitsu.png",
                     "link" : "http://www.fujitsu.com/pl/about/local/lodz/"
-                },                                           
+                }                               
                 ],
                 silver: [
                 {
