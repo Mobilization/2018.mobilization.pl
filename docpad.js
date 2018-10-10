@@ -682,6 +682,12 @@ docpadConfig = {
                     "lastname": "Pyznarski",
                     "bio_html" : "Official job position: tech leader at IDEMIA R&D. What he does, is his passion. That's the main reason why he usually calls himself a mobile enthusiast. He has been surfing mobile tech world for more than 7 year of his career. Currently responsible for delivering top natch mobile solutions leveraging biometric security features and standards. As it is a very strong R&D and fast evolving domain, the smile never goes off his face.",
                     "photo_url": speakersImgBaseUrl + "przemyslaw-pyznarski.png"
+                },
+                "speaker-aliaksandr-zhukovich": {//38
+                    "firstname": "Aliaksandr",
+                    "lastname": "Zhukovich",
+                    "bio_html": "I'm a software enthusiast with passion for technologies. I started from Web development and last few years I'm working on Android projects.",
+                    "photo_url": speakersImgBaseUrl + "aliaksandr-zhukovich.png"
                 }
             },
             talks: {
@@ -965,6 +971,13 @@ docpadConfig = {
                     "language": "EN",
                     "speakers_keys": ['speaker-przemyslaw-pyznarski']
                 },
+                "talk-efficient-testing": { //38
+                    "title": "Efficient testing Android apps by example",
+                    "description_html": "Mobile applications become more and more complex, and we should test them efficiently. It means we should integrate more automated tests into our projects.<ul>This talk will cover:<li> analysing general use cases which apply to many applications<li> tools which can help us with efficient testing Android apps<li> efficient combination of different levels of tests<li> best practices for adding and maintaining test cases to your project",
+                    "audience_level": "Intermediate",
+                    "language": "EN",
+                    "speakers_keys": ['speaker-aliaksandr-zhukovich']
+                },
             },
             breaks: {
                 'break-registration': {
@@ -1050,7 +1063,7 @@ docpadConfig = {
                         "talk_key" : "talk-idealistic-apps"
                     },
                     "venue-idemia" : {
-                        "talk_key" : "talk-app-connected"
+                        "talk_key" : "talk-efficient-testing"
                     },
                     "venue-mobica" : {
                         "talk_key" : "talk-animations-gestures"
@@ -1089,7 +1102,7 @@ docpadConfig = {
                         "talk_key" : "talk-hands-coordinators"
                     },
                     "venue-mobica" : {
-                        "talk_key" : "talk-tbd"
+                        "talk_key" : "talk-app-connected"
                     }
                 },
                 "slot-coffee-4": {"break_key": "break-coffee"},
