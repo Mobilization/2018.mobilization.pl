@@ -1023,7 +1023,7 @@ docpadConfig = {
                 "slot-no-coffee-0": {"break_key": "break-no-coffee"},
                 "slot-1": {
                     "venue-tomtom" : {
-                        "talk_key" : "talk-testing-kotlin"
+                        "talk_key" : "talk-technology-moving"
                     },
                     "venue-glase" : {
                         "talk_key" : "talk-tbd"
@@ -1041,7 +1041,7 @@ docpadConfig = {
                 "slot-coffee-1": {"break_key": "break-coffee"},
                 "slot-2": {
                     "venue-tomtom" : {
-                        "talk_key" : "talk-technology-moving"
+                        "talk_key" : "talk-testing-kotlin"
                     },
                     "venue-glase" : {
                         "talk_key" : "talk-rust-sharing"
