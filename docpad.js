@@ -698,6 +698,11 @@ docpadConfig = {
                     "language": "EN",
                     "audience_level" : "Beginner"
                 },
+                "talk-empty": {
+                    "title": "",
+                    "description_html": "",
+                    "speakers_keys": [],
+                },                
 				"talk-finally": {
                     "title": "Finally meeting",
                     "description_html": "Time to give thanks to all the sponsors and the organizer\'s team.",
@@ -1039,6 +1044,7 @@ docpadConfig = {
                         "talk_key" : "talk-technology-moving"
                     },
                     "venue-glase" : {
+                        "talk_key" : "talk-empty"
                     },
                     "venue-harman" : {
                         "talk_key" : "talk-connected-cars"
@@ -1047,6 +1053,7 @@ docpadConfig = {
                         "talk_key" : "talk-7th-continent"
                     },
                     "venue-mobica" : {
+                        "talk_key" : "talk-empty"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
