@@ -972,8 +972,8 @@ docpadConfig = {
                     "speakers_keys": ['speaker-przemyslaw-pyznarski']
                 },
                 "talk-efficient-testing": { //38
-                    "title": "Efficient testing Android apps by example",
-                    "description_html": "Mobile applications become more and more complex, and we should test them efficiently. It means we should integrate more automated tests into our projects.<ul>This talk will cover:<li> analysing general use cases which apply to many applications<li> tools which can help us with efficient testing Android apps<li> efficient combination of different levels of tests<li> best practices for adding and maintaining test cases to your project",
+                    "title": "Efficient testing UI Android apps by example",
+                    "description_html": "This talk will cover:<ul><li>analyzing general use cases which apply to many applications<li>tools which can help us with efficient testing<li>efficient combination of different types of UI tests<li>best practices for adding and maintaining test cases to your project</ul>",
                     "audience_level": "Intermediate",
                     "language": "EN",
                     "speakers_keys": ['speaker-aliaksandr-zhukovich']
@@ -1039,7 +1039,6 @@ docpadConfig = {
                         "talk_key" : "talk-technology-moving"
                     },
                     "venue-glase" : {
-                        "talk_key" : "talk-tbd"
                     },
                     "venue-harman" : {
                         "talk_key" : "talk-connected-cars"
@@ -1048,7 +1047,6 @@ docpadConfig = {
                         "talk_key" : "talk-7th-continent"
                     },
                     "venue-mobica" : {
-                        "talk_key" : "talk-tbd"
                     }
                 },
                 "slot-coffee-1": {"break_key": "break-coffee"},
