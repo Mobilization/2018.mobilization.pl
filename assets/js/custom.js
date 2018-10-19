@@ -53,7 +53,7 @@ jQuery(function($) {
 
 	if ( $( '.countdown' ).length > 0 ) {
 		$(".countdown").jCounter({
-		  	date: '21 October 2018 9:00:00',
+		  	date: '20 October 2018 9:00:00',
 		  	fallback: function() { console.log("count finished!") }
 		});
 	}
