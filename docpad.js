@@ -1010,7 +1010,7 @@ docpadConfig = {
                 //     description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
                 // },
                 'break-afterparty': {
-                    title: '<a href="http://bit.ly/dnapoland">DNA</a> AfterParty in Browar Księży Młyn',
+                    title: 'DNA AfterParty in Browar Księży Młyn',
                     description_html: 'Free pizza and beer and follow up talks.<br>30min from the conference venue.<br>ul. Tymienieckiego 22/24, Łódź<br>Sponsored by <a href="http://bit.ly/dnapoland">DNA Poland</a>'
                 }
             },
